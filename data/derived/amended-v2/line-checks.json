@@ -1,0 +1,152 @@
+{
+  "meaning": "Numerical checks; synthetic recovery is not observational evidence or human science review.",
+  "script_sha256": "3b9bf75bd3a7117c9666f5fd96379e1a6d05083940c90b6da8edf161e7926667",
+  "checks": [
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 0.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 7.378640342496746e-15,
+      "fixed_true_ratio_chi2": 2.4119422177132436e-28,
+      "finer_grid_max_change_sigma": 0.0004468007038598097
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 0.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 3.7712823091864316e-15,
+      "fixed_true_ratio_chi2": 9.091621932672161e-29,
+      "finer_grid_max_change_sigma": 0.0007980713941592009
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 5.627006779836482e-15,
+      "fixed_true_ratio_chi2": 6.66587464911755e-29,
+      "finer_grid_max_change_sigma": 0.000419911272487098
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 5.553080967262664e-15,
+      "fixed_true_ratio_chi2": 1.2602052960905664e-28,
+      "finer_grid_max_change_sigma": 0.0007648123086016367
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 7.384444790831005e-15,
+      "fixed_true_ratio_chi2": 1.8893218680043233e-28,
+      "finer_grid_max_change_sigma": 0.00034049635432760396
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 5.627006779836482e-15,
+      "fixed_true_ratio_chi2": 5.531887097862345e-28,
+      "finer_grid_max_change_sigma": 0.000668764918985547
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 0.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 3.4692852332005216e-15,
+      "fixed_true_ratio_chi2": 9.05217888741111e-29,
+      "finer_grid_max_change_sigma": 0.001946150530665138
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 0.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 2.2315295185404408e-15,
+      "fixed_true_ratio_chi2": 8.273178743505361e-29,
+      "finer_grid_max_change_sigma": 0.0019499517593153121
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 3.5133764758095738e-15,
+      "fixed_true_ratio_chi2": 4.4570641144987167e-29,
+      "finer_grid_max_change_sigma": 0.0019723277711561392
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 1.738766087929543e-15,
+      "fixed_true_ratio_chi2": 7.504039360914875e-29,
+      "finer_grid_max_change_sigma": 0.001979794176302034
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 7.167306125544526e-15,
+      "fixed_true_ratio_chi2": 5.231133877746835e-29,
+      "finer_grid_max_change_sigma": 0.0020496465842753174
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 3.80406599068121e-15,
+      "fixed_true_ratio_chi2": 5.472722529970769e-29,
+      "finer_grid_max_change_sigma": 0.002068634313435585
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 0.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 5.682107343794136e-15,
+      "fixed_true_ratio_chi2": 1.8676281931107454e-28,
+      "finer_grid_max_change_sigma": 0.0076826935490721246
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 0.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 5.4687389235539485e-15,
+      "fixed_true_ratio_chi2": 1.0570736129961558e-28,
+      "finer_grid_max_change_sigma": 0.005255435704979555
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 3.0642029066236002e-15,
+      "fixed_true_ratio_chi2": 1.9386256745806365e-28,
+      "finer_grid_max_change_sigma": 0.008336735057641487
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 1500.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 5.2997764139298914e-15,
+      "fixed_true_ratio_chi2": 1.3430356911387726e-28,
+      "finer_grid_max_change_sigma": 0.005996045832736769
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.0,
+      "noiseless_prediction_max_error_sigma": 5.956311331868123e-15,
+      "fixed_true_ratio_chi2": 3.776671583745594e-28,
+      "finer_grid_max_change_sigma": 0.010332642747391069
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "width_kms": 3000.0,
+      "R_multiplier": 1.3,
+      "noiseless_prediction_max_error_sigma": 4.255796932450965e-15,
+      "fixed_true_ratio_chi2": 5.951955529892534e-28,
+      "finer_grid_max_change_sigma": 0.008250778248806824
+    }
+  ],
+  "max_kkt_violation": 4.388544724734614e-14,
+  "status": "passed"
+}

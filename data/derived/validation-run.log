@@ -1,0 +1,72 @@
+{
+  "utc": "2026-09-10T19:23:23.103010+00:00",
+  "checks": {
+    "retrieved_bytes_preserved": 28,
+    "historical_notes_and_frozen_protocol": "unchanged",
+    "analytic_linear_spectrum_integral": "matches analytic logarithmic mean",
+    "flat_control_scale_invariance_and_gap_rejection": "passed on synthetic/modified copies only",
+    "original_pixel_draw_variance_max_fractional_difference": 0.004080839980722839,
+    "fieller_inversion_and_weak_denominator": "bounded, unbounded and boundary cases verified",
+    "constant_flambda_kernel_max_fractional_error": 4.440892098500626e-16,
+    "one_A_grid_sensitivity": [
+      {
+        "id": "RUBIES-UDS-154183",
+        "model": "smooth",
+        "max_change_in_supplied_sigma": 3.307921944499409e-15
+      },
+      {
+        "id": "RUBIES-UDS-154183",
+        "model": "continuous",
+        "max_change_in_supplied_sigma": 8.349573786328178e-06
+      },
+      {
+        "id": "RUBIES-UDS-154183",
+        "model": "jump",
+        "max_change_in_supplied_sigma": 1.18855289426836e-10
+      },
+      {
+        "id": "RUBIES-UDS-40579",
+        "model": "smooth",
+        "max_change_in_supplied_sigma": 8.225628681914095e-15
+      },
+      {
+        "id": "RUBIES-UDS-40579",
+        "model": "continuous",
+        "max_change_in_supplied_sigma": 3.2260310958712267e-06
+      },
+      {
+        "id": "RUBIES-UDS-40579",
+        "model": "jump",
+        "max_change_in_supplied_sigma": 0.0050582380562830655
+      },
+      {
+        "id": "RUBIES-UDS-182791",
+        "model": "smooth",
+        "max_change_in_supplied_sigma": 1.7510756379153036e-15
+      },
+      {
+        "id": "RUBIES-UDS-182791",
+        "model": "continuous",
+        "max_change_in_supplied_sigma": 6.11520318181154e-06
+      },
+      {
+        "id": "RUBIES-UDS-182791",
+        "model": "jump",
+        "max_change_in_supplied_sigma": 0.005046865465871334
+      }
+    ],
+    "optimizer_reported_success": "all recorded minima; boundaries are retained in results"
+  },
+  "meaning": "Numerical and file-integrity checks, not independent scientific review.",
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "astropy": "8.0.1",
+      "matplotlib": "3.11.1"
+    }
+  },
+  "status": "passed"
+}

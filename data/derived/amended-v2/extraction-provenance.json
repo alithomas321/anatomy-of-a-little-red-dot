@@ -1,0 +1,171 @@
+{
+  "inputs": [
+    {
+      "path": "analysis/amended_v2_extraction.py",
+      "sha256": "00b89e60b0cb45f78d6002632bcd4c4d43bef26142cb898d03864b048a526e27",
+      "bytes": 20585
+    },
+    {
+      "path": "analysis/measure.py",
+      "sha256": "7584334245052d49727ff9b365fa910f47dec9a38bd5e816e7ac57cb8ad13c76",
+      "bytes": 14726
+    },
+    {
+      "path": "analysis/requirements.lock",
+      "sha256": "54dd81798c29fd246bc153c6777fdad3ef7e25c541baed976d9027494788ca4d",
+      "bytes": 938
+    },
+    {
+      "path": "analysis/sample.json",
+      "sha256": "9bdcd75ee88ba8f838bd20bca40ec799b74511fb54f852620de8c5e5a3865743",
+      "bytes": 2314
+    },
+    {
+      "path": "data/derived/measurements.json",
+      "sha256": "f40513830e742df667d91a169458983b7980a453835ef249af10555242c08ee5",
+      "bytes": 3943
+    },
+    {
+      "path": "data/raw/catalog/jwst_nirspec_prism_disp.fits",
+      "sha256": "2e54a029286ac455a88158eca398b1fb4fa4a922981faff9e9241b17a637613c",
+      "bytes": 20160,
+      "existing_manifest_verified": true,
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/jwst_nirspec_prism_disp.fits",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/jwst_nirspec_prism_disp.fits",
+      "retrieved_utc": "2026-09-10T19:01:10.332051+00:00",
+      "md5": "0e9e25f792aca1084e580c066b9ba646"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds1-v4_prism-clear_4233_40579.spec.fits",
+      "sha256": "ac87aeb60b5657da2780fe52ed52491914cbca139658ad9b23e4d66aeca5e4dc",
+      "bytes": 673920,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds1-v4/rubies-uds1-v4_prism-clear_4233_40579.spec.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds1-v4/rubies-uds1-v4_prism-clear_4233_40579.spec.fits",
+      "retrieved_utc": "2026-09-10T19:00:42.725026+00:00",
+      "md5": "6448f00c9d0cd76f22afaf30b3efe9d6"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds1-v4_prism-clear_4233_40579.spec.zfit.fits",
+      "sha256": "3d4d5b59a5f1c35b35ae2aa9911def49b61025b01742572cccc976cd53b4e619",
+      "bytes": 112320,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds1-v4/rubies-uds1-v4_prism-clear_4233_40579.spec.zfit.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds1-v4/rubies-uds1-v4_prism-clear_4233_40579.spec.zfit.fits",
+      "retrieved_utc": "2026-09-10T19:09:41.470648+00:00",
+      "md5": "afa96c7b0dd967a4d57ab33ee2f2249e"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds21-v4_prism-clear_4233_182791.spec.fits",
+      "sha256": "ec26563ca74288cea377b8171093d3451926b8aed819ce40b8480ba9d9a7ca02",
+      "bytes": 673920,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds21-v4/rubies-uds21-v4_prism-clear_4233_182791.spec.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds21-v4/rubies-uds21-v4_prism-clear_4233_182791.spec.fits",
+      "retrieved_utc": "2026-09-10T19:00:43.026102+00:00",
+      "md5": "037cb17e0dc24b3a671c79464272cbcf"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds21-v4_prism-clear_4233_182791.spec.zfit.fits",
+      "sha256": "6a290ab651a2e85dd9aa8ca51a48a787e86f2865ee360a41468667c317d3a1d2",
+      "bytes": 112320,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds21-v4/rubies-uds21-v4_prism-clear_4233_182791.spec.zfit.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds21-v4/rubies-uds21-v4_prism-clear_4233_182791.spec.zfit.fits",
+      "retrieved_utc": "2026-09-10T19:09:41.791728+00:00",
+      "md5": "64eca8f557ba4657119226f4f650c70f"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds31-nod-v3_prism-clear_4233_154183.spec.fits",
+      "sha256": "07f0f1508c911b8a1b63eb6acae1368c9c8e3bbeb1c0d316f22adc62d7fa3ae7",
+      "bytes": 642240,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-nod-v3/rubies-uds31-nod-v3_prism-clear_4233_154183.spec.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-nod-v3/rubies-uds31-nod-v3_prism-clear_4233_154183.spec.fits",
+      "retrieved_utc": "2026-09-10T19:07:35.465809+00:00",
+      "md5": "eaef98c059917ddb036cc1b739eff229"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds31-v3_prism-clear_4233_154183.spec.fits",
+      "sha256": "c32b1b0e458c1ef779d5a620facc1ca586a921e881bd82355550e7d887c1b0c4",
+      "bytes": 642240,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v3/rubies-uds31-v3_prism-clear_4233_154183.spec.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v3/rubies-uds31-v3_prism-clear_4233_154183.spec.fits",
+      "retrieved_utc": "2026-09-10T19:01:53.415072+00:00",
+      "md5": "cbf1c664732059a382192cd068c4e35d"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds31-v4_prism-clear_4233_154183.spec.fits",
+      "sha256": "abd903a4b7b93bb56a9fdba9e36cec1cfa9685ef740f819308a1ce52c597bee9",
+      "bytes": 673920,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v4/rubies-uds31-v4_prism-clear_4233_154183.spec.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v4/rubies-uds31-v4_prism-clear_4233_154183.spec.fits",
+      "retrieved_utc": "2026-09-10T19:00:42.472607+00:00",
+      "md5": "5567c5be60f5c8acd6e556b447b275e3"
+    },
+    {
+      "path": "data/raw/spectra/rubies-uds31-v4_prism-clear_4233_154183.spec.zfit.fits",
+      "sha256": "7d8ff62c73531c1c6bb1311363b4cc64af2072bd8b45b133fc294676d2bf4b02",
+      "bytes": 112320,
+      "existing_manifest_verified": true,
+      "requested_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v4/rubies-uds31-v4_prism-clear_4233_154183.spec.zfit.fits",
+      "resolved_url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v4/rubies-uds31-v4_prism-clear_4233_154183.spec.zfit.fits",
+      "retrieved_utc": "2026-09-10T19:07:35.908473+00:00",
+      "md5": "d529b14d81853b607d24030fddd52a1b"
+    },
+    {
+      "path": "data/retrieval-manifest.json",
+      "sha256": "fe4c5469db79f4300915d89e008248a1a071384b522d283b4a3bdf247921f5fd",
+      "bytes": 19814
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-slit-combine-92b1aa6.py",
+      "sha256": "608972e730425b5e5e74b92e712073eec3ec084aa3f31b76059b91dc86c724b2",
+      "bytes": 167813,
+      "existing_manifest_verified": true,
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-19T01:47:24.490212+00:00"
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-slit-combine-c61ccae.py",
+      "sha256": "6a7e02c3db00ff16e05ba4d1ec1a8a8214a8b2b0e79e457ca3ad3d8aab91cf31",
+      "bytes": 149692,
+      "existing_manifest_verified": true,
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-19T01:47:24.714983+00:00"
+    },
+    {
+      "path": "research/amended-v2/extraction-methods.md",
+      "sha256": "831a02214a04fc7279cc93ec7d646561c638156eaa9c2f2429c496e8c5b572c1",
+      "bytes": 15654
+    },
+    {
+      "path": "research/amended-v2/source-manifest.json",
+      "sha256": "43bf3067e13df93699b0b6ff9c7dabcf5a90be0aa01fa936e39661efa239f923",
+      "bytes": 17116
+    },
+    {
+      "path": "research/evidence/msaexp-slit-combine-80b81b4.py",
+      "sha256": "6a585d1bde11bed1ad0cbe02368dcf77ac872a37302f57aae8e1a75f77fd71cd",
+      "bytes": 168450,
+      "existing_manifest_verified": true,
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-10T19:01:11.491799+00:00",
+      "md5": "67701ff6c9e1ceed8fd820f29b15b5ce"
+    }
+  ],
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "astropy": "8.0.1",
+    "matplotlib": "3.11.1"
+  },
+  "command": "PYTHONDONTWRITEBYTECODE=1 analysis/.venv/bin/python analysis/amended_v2_extraction.py"
+}

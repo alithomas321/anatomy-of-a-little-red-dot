@@ -1,0 +1,25 @@
+XTENSION= 'BINTABLE'           / binary table extension                         
+BITPIX  =                    8 / array data type                                
+NAXIS   =                    2 / number of array dimensions                     
+NAXIS1  =                   24 / length of dimension 1                          
+NAXIS2  =                   31 / length of dimension 2                          
+PCOUNT  =                    0 / number of group parameters                     
+GCOUNT  =                    1 / number of groups                               
+TFIELDS =                    3 / number of table fields                         
+VERSION = '0.9.5.dev2+g80b81b4' / msaexp software version                       
+PROFCEN = 0.000999999999999999 / PRF profile center                             
+PROFSIG =  0.12625914747664502 / PRF profile sigma                              
+PROFSTRT=                    0 / Start of profile slice                         
+PROFSTOP=                  473 / End of profile slice                           
+YTRACE  =                 15.0 / Expected center of trace                       
+DCHI2PAR= 'center  '           / Parameter for dchi2/dparam                     
+CHI2A   =    2843314.529844732 / Chi2 with d{p00_name} = -{offset_for_chi2}     
+CHI2B   =    2536287.186412575 / Chi2 with dparam = 0. (best fit)               
+CHI2C   =    2669863.756679784 / Chi2 with d{p00_name} = +{offset_for_chi2}     
+EXTNAME = 'PROF1D  '           / extension name                                 
+TTYPE1  = 'pix     '                                                            
+TFORM1  = 'D       '                                                            
+TTYPE2  = 'profile '                                                            
+TFORM2  = 'D       '                                                            
+TTYPE3  = 'pfit    '                                                            
+TFORM3  = 'D       '                                                            

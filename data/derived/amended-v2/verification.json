@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "utc": "2026-09-19T01:56:12.547873+00:00",
+  "checks": {
+    "preexisting_files_unchanged": 137,
+    "updated_reader_pages_with_byte_exact_archival_copies": [
+      "CASE_STUDY.md",
+      "README.md"
+    ],
+    "retrieved_resource_hashes": 36,
+    "frozen_protocol_and_three_object_sample": "unchanged",
+    "original_observed_band_measurements_reproduced": 3,
+    "fresh_extraction_rows_and_confidence_sets": 23,
+    "fresh_joint_fit_minima_and_profile_spot_checks": 36,
+    "largest_half_grid_change_in_archive_error_units": 0.010332642747391069,
+    "locked_package_versions_verified": 16,
+    "nonblank_readable_pngs_and_vector_containers": 3,
+    "local_document_links": 99
+  },
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "packages": {
+      "astropy": "8.0.1",
+      "astropy-iers-data": "0.2026.9.7.0.56.14",
+      "contourpy": "1.3.3",
+      "cycler": "0.12.1",
+      "fonttools": "4.65.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.1",
+      "numpy": "2.5.3",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "pyerfa": "2.0.1.5",
+      "pyparsing": "3.3.2",
+      "python-dateutil": "2.9.0.post0",
+      "pyyaml": "6.0.3",
+      "scipy": "1.18.1",
+      "six": "1.17.0"
+    }
+  },
+  "manifest_sha256": "d7babcd8f3172fd4739665bc914a1e87682f14a59a727c713042908e2bc41b41",
+  "artifact_count": 184,
+  "limits": "Software, arithmetic, preservation and artifact verification; not human science/contribution/release approval.",
+  "human_science_review": "pending"
+}

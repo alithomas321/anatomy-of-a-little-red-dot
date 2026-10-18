@@ -1,0 +1,887 @@
+{
+  "utc": "2026-09-10T19:24:00.376494+00:00",
+  "status": "passed",
+  "scope": "Current observational deliverables; historical copied notes preserved separately. No web availability or independent science approval claimed.",
+  "source_count": 3,
+  "retrieved_resources_verified": 28,
+  "figure_pairs": 9,
+  "local_links_checked": 88,
+  "local_links": [
+    {
+      "document": "README.md",
+      "target": "CASE_STUDY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/understanding-the-result.md"
+    },
+    {
+      "document": "README.md",
+      "target": "CASE_STUDY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "data/derived/measurements.csv"
+    },
+    {
+      "document": "README.md",
+      "target": "data/derived/sensitivity.csv"
+    },
+    {
+      "document": "README.md",
+      "target": "research/observational-report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/protocol-v1.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/protocol-amendments.md"
+    },
+    {
+      "document": "README.md",
+      "target": "analysis/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "data/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "analysis/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "figures/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/source-notes/little-red-dots-preliminary-research-2026-09-05.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/source-notes/owner-selection-2026-09-05.md"
+    },
+    {
+      "document": "README.md",
+      "target": "research/SOURCE_MANIFEST.json"
+    },
+    {
+      "document": "README.md",
+      "target": "PROVENANCE.json"
+    },
+    {
+      "document": "README.md",
+      "target": "research/sessions/2026-09-10-project-contained-layout.md"
+    },
+    {
+      "document": "README.md",
+      "target": "../../AGENTS.md"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/annotated-spectra.png"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "data/derived/measurements.csv"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "data/derived/sensitivity.csv"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/band-ratios.png"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "research/understanding-the-result.md"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "research/observational-report.md"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/analysis-sensitivity.png"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/uncertainty-assumptions.png"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/cliff-reduction-comparison.png"
+    },
+    {
+      "document": "CASE_STUDY.md",
+      "target": "figures/shape-ambiguity.png"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "../research/protocol-v1.md"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "../research/observational-report.md"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "requirements.lock"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "../data/derived/validation.json"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "sample.json"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "measure.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "shapes.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "figures.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "shape_figures.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "verify.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "run.sh"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "retrieve.py"
+    },
+    {
+      "document": "analysis/README.md",
+      "target": "reacquire.py"
+    },
+    {
+      "document": "data/README.md",
+      "target": "retrieval-manifest.json"
+    },
+    {
+      "document": "data/README.md",
+      "target": "derived/product-audit.json"
+    },
+    {
+      "document": "data/README.md",
+      "target": "../research/observational-report.md"
+    },
+    {
+      "document": "data/README.md",
+      "target": "../analysis/reacquire.py"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "annotated-spectra.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "band-ratios.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "analysis-sensitivity.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "uncertainty-assumptions.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "cliff-reduction-comparison.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "shape-ambiguity.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "RUBIES-UDS-154183-spectrum.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "RUBIES-UDS-40579-spectrum.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "RUBIES-UDS-182791-spectrum.png"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "../research/observational-report.md"
+    },
+    {
+      "document": "figures/README.md",
+      "target": "../analysis/README.md"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../CASE_STUDY.md"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../analysis/measure.py"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../analysis/shapes.py"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "protocol-v1.md"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../data/retrieval-manifest.json"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../data/derived/product-audit.json"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../figures/annotated-spectra.png"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../figures/cliff-reduction-comparison.png"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../figures/shape-ambiguity.png"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "protocol-amendments.md"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../data/derived/shape-summary.csv"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../analysis/README.md"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "../data/derived/validation.json"
+    },
+    {
+      "document": "research/observational-report.md",
+      "target": "understanding-the-result.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "understanding-the-result.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "observational-report.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "../CASE_STUDY.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "protocol-v1.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "protocol-amendments.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "sessions/2026-09-10-observational-v1.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "../data/retrieval-manifest.json"
+    },
+    {
+      "document": "research/README.md",
+      "target": "source-notes/little-red-dots-preliminary-research-2026-09-05.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "source-notes/owner-selection-2026-09-05.md"
+    },
+    {
+      "document": "research/README.md",
+      "target": "SOURCE_MANIFEST.json"
+    },
+    {
+      "document": "research/README.md",
+      "target": "sessions/2026-09-10-project-contained-layout.md"
+    },
+    {
+      "document": "research/understanding-the-result.md",
+      "target": "../figures/annotated-spectra.png"
+    },
+    {
+      "document": "research/understanding-the-result.md",
+      "target": "observational-report.md"
+    },
+    {
+      "document": "research/sessions/2026-09-10-observational-v1.md",
+      "target": "../../CASE_STUDY.md"
+    },
+    {
+      "document": "research/sessions/2026-09-10-observational-v1.md",
+      "target": "../understanding-the-result.md"
+    },
+    {
+      "document": "research/sessions/2026-09-10-observational-v1.md",
+      "target": "../observational-report.md"
+    }
+  ],
+  "visual_review": "Inspected all nine PNG figures; corrected headings, logarithmic tick labels and individual-spectrum y-label position.",
+  "verification_record": "2026-09-10T19:23:23.103010+00:00",
+  "artifacts": [
+    {
+      "path": "CASE_STUDY.md",
+      "bytes": 4653,
+      "sha256": "d12fe7ebcc1cb72ed5bae4e69259b78fa58b11870b85788701836302b6355185"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4066,
+      "sha256": "50a3917b57af707237f110d279ca80a8c66f1dff4b78bc7d2ae45d78c1242d07"
+    },
+    {
+      "path": "analysis/README.md",
+      "bytes": 3145,
+      "sha256": "1cde109b212e462bb03f3c1491000c93d9e88ccd9297a82b07ff6697a8a1970b"
+    },
+    {
+      "path": "analysis/figures.py",
+      "bytes": 11132,
+      "sha256": "d16e581c9832259616f94154d98b8cd04a8ae3ca4b23e2facc73db3dac2b02bd"
+    },
+    {
+      "path": "analysis/measure.py",
+      "bytes": 14726,
+      "sha256": "7584334245052d49727ff9b365fa910f47dec9a38bd5e816e7ac57cb8ad13c76"
+    },
+    {
+      "path": "analysis/reacquire.py",
+      "bytes": 1745,
+      "sha256": "01bdebc98ff4bf2d5758797abe75dca81e9619556a747869a0f6d78669223203"
+    },
+    {
+      "path": "analysis/requirements.in",
+      "bytes": 31,
+      "sha256": "32f007977ba36b194df4b24f8b31251de5055086775f1303360f623ddf2a49f7"
+    },
+    {
+      "path": "analysis/requirements.lock",
+      "bytes": 938,
+      "sha256": "54dd81798c29fd246bc153c6777fdad3ef7e25c541baed976d9027494788ca4d"
+    },
+    {
+      "path": "analysis/retrieve.py",
+      "bytes": 2826,
+      "sha256": "c2194d29aa7fb9da924c21ea702db802008bbfb33e251eb3501e3b47dd311897"
+    },
+    {
+      "path": "analysis/run.sh",
+      "bytes": 938,
+      "sha256": "1a8b39f807b8303f8d5b05105f7c526bb4e578087a6d446c4a38eac610276812"
+    },
+    {
+      "path": "analysis/sample.json",
+      "bytes": 2314,
+      "sha256": "9bdcd75ee88ba8f838bd20bca40ec799b74511fb54f852620de8c5e5a3865743"
+    },
+    {
+      "path": "analysis/shape_figures.py",
+      "bytes": 4885,
+      "sha256": "6655f6666f1d7b337c931325cb0f310f60e9633a36acaee635a87ca30739fea8"
+    },
+    {
+      "path": "analysis/shapes.py",
+      "bytes": 6657,
+      "sha256": "72a96804fb1f6ddcdaef364e1369af894167636b561449c505eb2fb2b1a603ae"
+    },
+    {
+      "path": "analysis/verify.py",
+      "bytes": 5633,
+      "sha256": "d297244f974ffc1d6b0887caaebf3ad3351cc1dac750e91d120730708b9610a4"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1629,
+      "sha256": "f6cb9575671704a2a86ee30309bca277d6557419cd39ee194d05853559dfecd6"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_BACKGROUND_header.txt",
+      "bytes": 28188,
+      "sha256": "1dbd2813eb76d824a5eeeade4bc32c0c0d62fc265a53b8766675f1ced09533e8"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_PRIMARY_header.txt",
+      "bytes": 324,
+      "sha256": "ff28795ee0674a8be5c9d7ee65cd70c6ad1d4ad1aa58f0c5d01d3bc2d56bae1e"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_PROF1D_header.txt",
+      "bytes": 2025,
+      "sha256": "bc1d2f0010c91d22fc356c4742ad51708303074d1580b89d4b050e6f670a3020"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_PROFILE_header.txt",
+      "bytes": 28188,
+      "sha256": "508241921405ace3a333c43488240baff183a54d8697401b4fb2d11799259680"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_SCI_header.txt",
+      "bytes": 28188,
+      "sha256": "910f6e99a547c215727b5d850f15d09d2e9ecf6d40b75be1eb91e19eee8187d8"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_SLITS_header.txt",
+      "bytes": 8667,
+      "sha256": "b427f21a2fb37394bbda2fd028a07c4d2f125224afe0328f1d9e3d6b1dc97350"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_SPEC1D_header.txt",
+      "bytes": 30051,
+      "sha256": "54ca6eb9dc43bf77857e39fff362c2ee41df19e0890b8ae6a72998a53bcc5e47"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_WHT_header.txt",
+      "bytes": 28188,
+      "sha256": "21d9753b9bb23fd463020fe4dfe1ce8a0f407622aab6a8bd2fbe9c69ae72685d"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_exposures.csv",
+      "bytes": 2081,
+      "sha256": "f04dd481811ad1ea180ec101eb057804934189b8680eb83a96a80690b0ff60de"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-154183_spectrum.csv",
+      "bytes": 53332,
+      "sha256": "425edc1412c54103f48bc72242885c4d99a6d5b53cdf5412c0a5b3cb1ecdec07"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_BACKGROUND_header.txt",
+      "bytes": 28350,
+      "sha256": "8a652c6ac1995b577590534276498db4e45f2f49b978a36f989e979ff0edab8a"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_PRIMARY_header.txt",
+      "bytes": 324,
+      "sha256": "ff28795ee0674a8be5c9d7ee65cd70c6ad1d4ad1aa58f0c5d01d3bc2d56bae1e"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_PROF1D_header.txt",
+      "bytes": 2025,
+      "sha256": "c190133ce829b120ff36bfb7dc055b1f5bc53855145b16fba6a683f29286ffc0"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_PROFILE_header.txt",
+      "bytes": 28350,
+      "sha256": "84cbb5700ec6fa9d4587bae0856b2bb1326150bee0a87f818d2ebf7341cdc744"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_SCI_header.txt",
+      "bytes": 28350,
+      "sha256": "89701f4bfdb24b249f778585964a55f2c02f4f3c19504dc5365ef4b0caff63ec"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_SLITS_header.txt",
+      "bytes": 8667,
+      "sha256": "b427f21a2fb37394bbda2fd028a07c4d2f125224afe0328f1d9e3d6b1dc97350"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_SPEC1D_header.txt",
+      "bytes": 30213,
+      "sha256": "2a2343c13f2d8417920ec26f5fae3d2aaf133c9b925ab319e0db31b8d67724f3"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_WHT_header.txt",
+      "bytes": 28350,
+      "sha256": "216f3901fe467f9382d88325d92e64c11c0619e1f856e0fe8bc103f23de2175f"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_exposures.csv",
+      "bytes": 2074,
+      "sha256": "9f62d40ad4a211348403bc715f0b17a8ab8855a6def5980ca53110b1331d9e0f"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-182791_spectrum.csv",
+      "bytes": 53451,
+      "sha256": "6a8f81986c94f5f9fbcc4d3e4e3b319b62fa67f911eebf6a3890b24ad3aa0d09"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_BACKGROUND_header.txt",
+      "bytes": 28026,
+      "sha256": "ce8db151da3483246830878ca760c399f213ef8ea78d018536abe9c8a7efc73e"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_PRIMARY_header.txt",
+      "bytes": 324,
+      "sha256": "ff28795ee0674a8be5c9d7ee65cd70c6ad1d4ad1aa58f0c5d01d3bc2d56bae1e"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_PROF1D_header.txt",
+      "bytes": 2025,
+      "sha256": "cd78284ec866ab1f6598f8fcd21028e55f3200412b9d16f921af2605d4d2e487"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_PROFILE_header.txt",
+      "bytes": 28026,
+      "sha256": "0f7615dfa10a34d1e5b9573225650f83b49b3bd5102862678866f55f9a4a4ecd"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_SCI_header.txt",
+      "bytes": 28026,
+      "sha256": "0fb9339f9387f307f6fb93bd647892710a56d1c90b63928cf72dda3c9e3795c6"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_SLITS_header.txt",
+      "bytes": 8343,
+      "sha256": "7b1e76bab4d6223f183113067c0bab9cb0876fac552a263715c5f2115c50b861"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_SPEC1D_header.txt",
+      "bytes": 29889,
+      "sha256": "b95b7fdfca984278c94c5e5a4002564a005d9fcc74c50685871a5991ae9061ad"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_WHT_header.txt",
+      "bytes": 28026,
+      "sha256": "78cc7673e21ac0b49361d1b3812c7a1a6cd3096e5422798eff5b8b5a6ba59e5d"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_exposures.csv",
+      "bytes": 2064,
+      "sha256": "d74255b43dd339aed12f08578ae3000be193e12774b6285325c237c60003cdad"
+    },
+    {
+      "path": "data/derived/RUBIES-UDS-40579_spectrum.csv",
+      "bytes": 52993,
+      "sha256": "9163fe290959392084c4cc6e0bac1f22efac7ed42d7786089fde28a7dfd50b5d"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_BACKGROUND_header.txt",
+      "bytes": 27135,
+      "sha256": "d12e53354b77e6f100ea87516d4103cd675f88053fc104491447cac8fe017787"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_PRIMARY_header.txt",
+      "bytes": 324,
+      "sha256": "ff28795ee0674a8be5c9d7ee65cd70c6ad1d4ad1aa58f0c5d01d3bc2d56bae1e"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_PROF1D_header.txt",
+      "bytes": 2025,
+      "sha256": "1158212b8ace161455e9e53dca0a3f196971f38d05e5089b970bf4478b477c58"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_PROFILE_header.txt",
+      "bytes": 27135,
+      "sha256": "a8b8603bcbcce64118bfd480ff2b10ddc2b24270a17aa325e3afb53a45c91ba4"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_SCI_header.txt",
+      "bytes": 27135,
+      "sha256": "7a14ce38695d667193f15b2448c836cc6e693e0e501b793acd740a8d114e9bf8"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_SLITS_header.txt",
+      "bytes": 8667,
+      "sha256": "64b7ca0059b0dc172e3175c1fdcc5d5585378230692b0185d5e5b82be1308769"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_SPEC1D_header.txt",
+      "bytes": 29160,
+      "sha256": "bde490e1459311c8aff5ac698e0a33cd602d9747c1a4d765163cb3da76b55979"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_WHT_header.txt",
+      "bytes": 27135,
+      "sha256": "705888e16ca9173aa6a3b9fd1923d73fb78d6de0e7925c77da379a1809e8760d"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_exposures.csv",
+      "bytes": 2053,
+      "sha256": "56481124063b2b303e8e46a7cb1b9cd066a164a56473e20c1714f97b711c18e2"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_BACKGROUND_header.txt",
+      "bytes": 27135,
+      "sha256": "d641bfda53fbc4489627e8583004ac7e26c0660141c86dbaec94674024aaae91"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_PRIMARY_header.txt",
+      "bytes": 324,
+      "sha256": "ff28795ee0674a8be5c9d7ee65cd70c6ad1d4ad1aa58f0c5d01d3bc2d56bae1e"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_PROF1D_header.txt",
+      "bytes": 2025,
+      "sha256": "41e588e5ffb48f9eea4f2f41e52fb93baecc78b87b0e7262200b76f760daff54"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_PROFILE_header.txt",
+      "bytes": 27135,
+      "sha256": "9bf5845fefad715baaf98932c6e6dc3947250f3e25398e28babbce53d2db4c89"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_SCI_header.txt",
+      "bytes": 27135,
+      "sha256": "c596da4faa165157259478d6bc2a5347579a3fef09198d74d2bf9a0af635cccc"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_SLITS_header.txt",
+      "bytes": 8667,
+      "sha256": "64b7ca0059b0dc172e3175c1fdcc5d5585378230692b0185d5e5b82be1308769"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_SPEC1D_header.txt",
+      "bytes": 29160,
+      "sha256": "4730ed9bbe66c31b7042e9580288c41dcbb72acf51c149f63f9a7b3fc454b33f"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_WHT_header.txt",
+      "bytes": 27135,
+      "sha256": "1bf578ce2183f1e962193f09e50096aea2a32f390a965d23e041118e5aa77345"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_exposures.csv",
+      "bytes": 2053,
+      "sha256": "56481124063b2b303e8e46a7cb1b9cd066a164a56473e20c1714f97b711c18e2"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_nod_spectrum.csv",
+      "bytes": 48938,
+      "sha256": "b29c2d5e090014a857614d01f24d19233013b51ef1fba5d6ae2a2c53ab58fec0"
+    },
+    {
+      "path": "data/derived/TheCliff_v3_spectrum.csv",
+      "bytes": 48943,
+      "sha256": "41049dfc2d87bf7c176c255d90f80627c8e9f0ee4b8736f198148f7ab4f77c9b"
+    },
+    {
+      "path": "data/derived/measurement-run.log",
+      "bytes": 6978,
+      "sha256": "fbffb6bfd5c3b314fb3964847da8611d5e209a8919d3a196038cab18c770f5c3"
+    },
+    {
+      "path": "data/derived/measurements.csv",
+      "bytes": 892,
+      "sha256": "89234e9270d4fb0410dba5e982fa4e69b157b0775414997d9e7de58a2775fb21"
+    },
+    {
+      "path": "data/derived/measurements.json",
+      "bytes": 3943,
+      "sha256": "f40513830e742df667d91a169458983b7980a453835ef249af10555242c08ee5"
+    },
+    {
+      "path": "data/derived/product-audit.json",
+      "bytes": 12308,
+      "sha256": "950704375cd8ff100a03444e1e58e3bb6a0a9bd1a9922600f486fb6389e4ea6d"
+    },
+    {
+      "path": "data/derived/sensitivity.csv",
+      "bytes": 10621,
+      "sha256": "681e228d4589d9de94189d357a880c831946a3590d3ff0211ce457c5547c80f7"
+    },
+    {
+      "path": "data/derived/sensitivity.json",
+      "bytes": 63389,
+      "sha256": "15e491eb76446417ffc23a3e2b656f4d6b4d553ae8317c81a055016c94439130"
+    },
+    {
+      "path": "data/derived/shape-fits.json",
+      "bytes": 245078,
+      "sha256": "cede2d9d6bb3ac7cf48f62072aa25dad855057d3a48a75248b35e376cb0bb2ac"
+    },
+    {
+      "path": "data/derived/shape-profiles.json",
+      "bytes": 87105,
+      "sha256": "07d9a52b3fcc7140ab9415313760b0ab98b71c8674726f71135d69732968a1aa"
+    },
+    {
+      "path": "data/derived/shape-run.log",
+      "bytes": 1947,
+      "sha256": "af754457c217be6431157e0f6d69655a7a566d2353476db4a34dcee693130d02"
+    },
+    {
+      "path": "data/derived/shape-summary.csv",
+      "bytes": 4363,
+      "sha256": "d5967cb9a3ffe83d37bdc21b53cae186b8f46375c583825ceb58782ec5341137"
+    },
+    {
+      "path": "data/derived/validation-run.log",
+      "bytes": 2393,
+      "sha256": "5719c68ee1269fb7c3025e15ad720fd1ca04a6418071599a645703008822ad24"
+    },
+    {
+      "path": "data/derived/validation.json",
+      "bytes": 2393,
+      "sha256": "5719c68ee1269fb7c3025e15ad720fd1ca04a6418071599a645703008822ad24"
+    },
+    {
+      "path": "data/retrieval-manifest.json",
+      "bytes": 19814,
+      "sha256": "fe4c5469db79f4300915d89e008248a1a071384b522d283b4a3bdf247921f5fd"
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 1626,
+      "sha256": "5c4ec66b7f658e4950ebe1231bad0901ae18f9010a9bbbc444b47b808f0516cf"
+    },
+    {
+      "path": "figures/RUBIES-UDS-154183-spectrum.png",
+      "bytes": 232704,
+      "sha256": "286d2fa0af9d0ebbea4a7d2d31723c707cf758b14ecca5da0466358bca23e9ad"
+    },
+    {
+      "path": "figures/RUBIES-UDS-154183-spectrum.svg",
+      "bytes": 93081,
+      "sha256": "715b8b4d0c351cf693f0143d6e89cbb16ed1bde35270a93305565e1a7be6abf6"
+    },
+    {
+      "path": "figures/RUBIES-UDS-182791-spectrum.png",
+      "bytes": 244583,
+      "sha256": "f9fd066955f06daa86258bd6b19b6d4884b53673ce1b18f573f73e7d1672b0b2"
+    },
+    {
+      "path": "figures/RUBIES-UDS-182791-spectrum.svg",
+      "bytes": 114914,
+      "sha256": "de905612b6eaca54652b44c0bada4bfa70859f7b4842440c0982c016159f3b44"
+    },
+    {
+      "path": "figures/RUBIES-UDS-40579-spectrum.png",
+      "bytes": 228898,
+      "sha256": "27539461cd0813bbc13ed227f233dd2f27e4b9d3ce7ddaa75018b214e5a462a0"
+    },
+    {
+      "path": "figures/RUBIES-UDS-40579-spectrum.svg",
+      "bytes": 85391,
+      "sha256": "2f53bbdf7bdb95af8a093c55c10352fb3dbabea1a1193292b82fe2d4839394bf"
+    },
+    {
+      "path": "figures/analysis-sensitivity.png",
+      "bytes": 139471,
+      "sha256": "afac740e20fbca112bd9156f8877625d52e7b5d342bba36726d1a5ae95e65b08"
+    },
+    {
+      "path": "figures/analysis-sensitivity.svg",
+      "bytes": 35056,
+      "sha256": "378c8a3f26c7ae95e3d72b6f1358441942131c8c5cbf7c0256be7b5e002f42eb"
+    },
+    {
+      "path": "figures/annotated-spectra.png",
+      "bytes": 479589,
+      "sha256": "e1bf793c9d8cd9c51397f07359b52a3781456811e4f9a6baa02e605e3e19f32f"
+    },
+    {
+      "path": "figures/annotated-spectra.svg",
+      "bytes": 129972,
+      "sha256": "f75c6af6771efc86449c8ec303293c30eec13b7e7c1db6af800e20fb6d6b6039"
+    },
+    {
+      "path": "figures/band-ratios.png",
+      "bytes": 94635,
+      "sha256": "a420da5dbf017f805a67df5bce41e2a4232af656bec6c2b52a4124ca4afb0aaa"
+    },
+    {
+      "path": "figures/band-ratios.svg",
+      "bytes": 15985,
+      "sha256": "54824d3d14848c0404a020b0eb2e529b2a9782ecd260e2b7842f2dcdf65b82ef"
+    },
+    {
+      "path": "figures/cliff-reduction-comparison.png",
+      "bytes": 276809,
+      "sha256": "29da367cfacdc949f263fcf9b9ee1200434b1aa3da70954591d00ce80afa55cc"
+    },
+    {
+      "path": "figures/cliff-reduction-comparison.svg",
+      "bytes": 63164,
+      "sha256": "1243cdee26a83e54d21697fdc267c9fec5428f5e0b4b9495d2bec433bd808f3b"
+    },
+    {
+      "path": "figures/shape-ambiguity.png",
+      "bytes": 403248,
+      "sha256": "44b03523e03c6b594e69b5fe0376aa7a56f81e3b6bef4c78d0ef1c6e2611d9da"
+    },
+    {
+      "path": "figures/shape-ambiguity.svg",
+      "bytes": 132275,
+      "sha256": "17a732762630494c1ca09bc9db87fa4ff610301c49f3127683f8ec77e097f415"
+    },
+    {
+      "path": "figures/uncertainty-assumptions.png",
+      "bytes": 120607,
+      "sha256": "a2308cc98ea0df79103660b68d9ab20e506c916072b991563535a77d74c4c858"
+    },
+    {
+      "path": "figures/uncertainty-assumptions.svg",
+      "bytes": 30575,
+      "sha256": "bbd38dd09d2301c3e7df30d88bae7a7430917947b4eefbc39f32ea662ceb7682"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 4101,
+      "sha256": "d06a1e3d81a96eeff90311280bc23c1f6cfc84b84eed88188d7708728e3b7118"
+    },
+    {
+      "path": "research/observational-report.md",
+      "bytes": 19902,
+      "sha256": "3abf033c3f82972412331b2a4885a67f3926cf872e833131be208e9e6fb0d71b"
+    },
+    {
+      "path": "research/protocol-amendments.md",
+      "bytes": 5391,
+      "sha256": "d011c67729aaa596b5d63e515551507be4d9873cbdf19718d20971ebb138073f"
+    },
+    {
+      "path": "research/protocol-freeze.json",
+      "bytes": 304,
+      "sha256": "7d8dbfa2fe0fd1a295c7928fa595815a4022cd1d650f18ee29fd094495ab5278"
+    },
+    {
+      "path": "research/protocol-v1.md",
+      "bytes": 8675,
+      "sha256": "999543717121d34378b19a7ca1dad9d26b964d033b435f564c676abadfe2d029"
+    },
+    {
+      "path": "research/sessions/2026-09-10-observational-v1.md",
+      "bytes": 5281,
+      "sha256": "5ce05cd7ded8a5db13c3d13d595bda3dfa27fd9b1f43063fc565b6f31187d695"
+    },
+    {
+      "path": "research/understanding-the-result.md",
+      "bytes": 4730,
+      "sha256": "e58ba7acb06c21c40ddadc25e07e0aaa8903dee1f78d491a78bee4fb48d07ff1"
+    }
+  ]
+}

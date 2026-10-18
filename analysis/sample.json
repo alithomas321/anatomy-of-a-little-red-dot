@@ -1,0 +1,80 @@
+[
+  {
+    "id": "RUBIES-UDS-154183",
+    "nickname": "The Cliff",
+    "pid": 4233,
+    "srcid": 154183,
+    "root": "rubies-uds31-v4",
+    "file": "rubies-uds31-v4_prism-clear_4233_154183.spec.fits",
+    "ra_deg": 34.41074855089,
+    "dec_deg": -5.12966426274,
+    "z": 3.548925327627479,
+    "published_ratio_percentiles": [
+      4.627193922069548,
+      5.956944485571725,
+      9.412597488661008,
+      18.665142173883606,
+      39.76154453070274
+    ],
+    "published_turnover_percentiles_um": [
+      0.3631414383649826,
+      0.3693366277217865,
+      0.3925248980522156,
+      0.4136310529708862,
+      0.41932342648506166
+    ],
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds31-v4/rubies-uds31-v4_prism-clear_4233_154183.spec.fits"
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "nickname": "RUBIES-BLAGN-1",
+    "pid": 4233,
+    "srcid": 40579,
+    "root": "rubies-uds1-v4",
+    "file": "rubies-uds1-v4_prism-clear_4233_40579.spec.fits",
+    "ra_deg": 34.2441997,
+    "dec_deg": -5.245871399999999,
+    "z": 3.113558,
+    "published_ratio_percentiles": [
+      2.6681534945928305,
+      2.7911659482541067,
+      3.011769061300269,
+      3.2609626359064445,
+      3.453722438537292
+    ],
+    "published_turnover_percentiles_um": [
+      0.36403350085020064,
+      0.3719191324710846,
+      0.39212898910045624,
+      0.41065276503562925,
+      0.41773884892463686
+    ],
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds1-v4/rubies-uds1-v4_prism-clear_4233_40579.spec.fits"
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "nickname": "RUBIES-UDS-182791",
+    "pid": 4233,
+    "srcid": 182791,
+    "root": "rubies-uds21-v4",
+    "file": "rubies-uds21-v4_prism-clear_4233_182791.spec.fits",
+    "ra_deg": 34.21381285054,
+    "dec_deg": -5.08704950317,
+    "z": 4.717405,
+    "published_ratio_percentiles": [
+      0.9263859382882459,
+      1.0318344088366436,
+      1.1970224560155065,
+      1.393200754765635,
+      1.5483984601154306
+    ],
+    "published_turnover_percentiles_um": [
+      0.28102454245090486,
+      0.3024222218990326,
+      0.3447893410921097,
+      0.4225312352180481,
+      0.4470515549182892
+    ],
+    "url": "https://s3.amazonaws.com/msaexp-nirspec/extractions/rubies-uds21-v4/rubies-uds21-v4_prism-clear_4233_182791.spec.fits"
+  }
+]

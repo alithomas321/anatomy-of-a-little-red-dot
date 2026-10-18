@@ -1,0 +1,251 @@
+{
+  "checks": {
+    "all_passed": true,
+    "kind": "synthetic_arithmetic_only",
+    "seed": 9182026,
+    "profile_recovery_max_absolute_error": 5.551115123125783e-17,
+    "analytic_variance_max_absolute_error": 1.734723475976807e-18,
+    "independent_pixel_monte_carlo_trials": 100000,
+    "monte_carlo_variance_over_analytic": 1.0008794535465004,
+    "zero_weight_coverage_rejected": true,
+    "native_sum_recovery": true,
+    "flat_color_recovery": true,
+    "offset_derivative_and_cancellation": true,
+    "v1_reference_band_fluxes_reproduced": true,
+    "historical_cliff_exposure_sets_match": true,
+    "every_variant_has_full_band_coverage": true,
+    "raw_input_manifest_hashes_verified": true
+  },
+  "summary": [
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "spec1d_optimal",
+      "blue_uJy": 0.021958969178270296,
+      "red_uJy": 0.18995119051920767,
+      "ratio": 8.65027811538511
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "native_profile_normalized_sum",
+      "blue_uJy": 0.017764061811804482,
+      "red_uJy": 0.18811523481117848,
+      "ratio": 10.589652119211447
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "image_r1_shift0",
+      "blue_uJy": 0.020700818149920287,
+      "red_uJy": 0.1926205464499521,
+      "ratio": 9.304972637069122
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "image_r2_shift0",
+      "blue_uJy": 0.02056236160070774,
+      "red_uJy": 0.19295762136557953,
+      "ratio": 9.384020430753347
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "image_r3_shift0",
+      "blue_uJy": 0.020558175773065478,
+      "red_uJy": 0.19295762136557953,
+      "ratio": 9.38593110087059
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "image_r2_shift-1",
+      "blue_uJy": 0.02023356529686656,
+      "red_uJy": 0.1923902022684803,
+      "ratio": 9.508467709261032
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v4",
+      "variant": "image_r2_shift1",
+      "blue_uJy": 0.021028463042775922,
+      "red_uJy": 0.19318804442722112,
+      "ratio": 9.186978812205135
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "spec1d_optimal",
+      "blue_uJy": 0.13121348359074655,
+      "red_uJy": 0.3995932232194602,
+      "ratio": 3.0453670787812266
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "native_profile_normalized_sum",
+      "blue_uJy": 0.13736736152695467,
+      "red_uJy": 0.4172575382999121,
+      "ratio": 3.037530412331873
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "image_r1_shift0",
+      "blue_uJy": 0.13328557993578705,
+      "red_uJy": 0.40110612125462086,
+      "ratio": 3.009373718056084
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "image_r2_shift0",
+      "blue_uJy": 0.13340436443390657,
+      "red_uJy": 0.4013350781232814,
+      "ratio": 3.008410405658936
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "image_r3_shift0",
+      "blue_uJy": 0.13340442162385152,
+      "red_uJy": 0.4013474743636182,
+      "ratio": 3.008502038225252
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "image_r2_shift-1",
+      "blue_uJy": 0.13341724809692845,
+      "red_uJy": 0.40129452104161967,
+      "ratio": 3.0078159066065937
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "product": "v4",
+      "variant": "image_r2_shift1",
+      "blue_uJy": 0.1332730032051965,
+      "red_uJy": 0.401159687178109,
+      "ratio": 3.010059633461214
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "spec1d_optimal",
+      "blue_uJy": 0.08919361790830183,
+      "red_uJy": 0.10627391037170261,
+      "ratio": 1.191496800600248
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "native_profile_normalized_sum",
+      "blue_uJy": 0.09312964857808259,
+      "red_uJy": 0.10112875389183235,
+      "ratio": 1.085892145368111
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "image_r1_shift0",
+      "blue_uJy": 0.09062893312936639,
+      "red_uJy": 0.10178245642238419,
+      "ratio": 1.1230680193167113
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "image_r2_shift0",
+      "blue_uJy": 0.09062976152625431,
+      "red_uJy": 0.1020419843556495,
+      "ratio": 1.1259213600169213
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "image_r3_shift0",
+      "blue_uJy": 0.09060008604411121,
+      "red_uJy": 0.10204427403995339,
+      "ratio": 1.1263154208294046
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "image_r2_shift-1",
+      "blue_uJy": 0.09049320152556778,
+      "red_uJy": 0.10181582925135124,
+      "ratio": 1.125121307843047
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "product": "v4",
+      "variant": "image_r2_shift1",
+      "blue_uJy": 0.09073709596943413,
+      "red_uJy": 0.10201171945315876,
+      "ratio": 1.1242559436498014
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v3_global",
+      "variant": "spec1d_optimal",
+      "blue_uJy": 0.027511604227193724,
+      "red_uJy": 0.1958092474263396,
+      "ratio": 7.11733295555309
+    },
+    {
+      "id": "RUBIES-UDS-154183",
+      "product": "v3_local_nod",
+      "variant": "spec1d_optimal",
+      "blue_uJy": 0.028395802382660575,
+      "red_uJy": 0.18297461958520475,
+      "ratio": 6.4437206992585345
+    }
+  ],
+  "offset_summary": [
+    {
+      "id": "RUBIES-UDS-154183",
+      "archive_blue_error_uJy": 0.009757952054981513,
+      "archive_blue_sn": 2.250366578411304,
+      "blue_zero_offset_uJy": -0.021958969178270296,
+      "blue_zero_offset_in_archive_sigma": -2.250366578411304,
+      "ratio_offset_minus_1sigma": 14.768706300746103,
+      "ratio_offset_plus_1sigma": 6.296611865492652,
+      "red_minus_blue_unchanged_uJy": 0.1679922213409374,
+      "differential_offset_to_equal_bands_uJy": 0.1679922213409374,
+      "common_offset_changes_difference": false
+    },
+    {
+      "id": "RUBIES-UDS-40579",
+      "archive_blue_error_uJy": 0.01727289777664152,
+      "archive_blue_sn": 7.596495115497594,
+      "blue_zero_offset_uJy": -0.13121348359074655,
+      "blue_zero_offset_in_archive_sigma": -7.596495115497594,
+      "ratio_offset_minus_1sigma": 3.3554358415058294,
+      "ratio_offset_plus_1sigma": 2.807436730272812,
+      "red_minus_blue_unchanged_uJy": 0.26837973962871364,
+      "differential_offset_to_equal_bands_uJy": 0.26837973962871364,
+      "common_offset_changes_difference": false
+    },
+    {
+      "id": "RUBIES-UDS-182791",
+      "archive_blue_error_uJy": 0.009669474523790356,
+      "archive_blue_sn": 9.224246642240352,
+      "blue_zero_offset_uJy": -0.08919361790830183,
+      "blue_zero_offset_in_archive_sigma": -9.224246642240352,
+      "ratio_offset_minus_1sigma": 1.2147812190923573,
+      "ratio_offset_plus_1sigma": 1.1727671271777487,
+      "red_minus_blue_unchanged_uJy": 0.017080292463400787,
+      "differential_offset_to_equal_bands_uJy": 0.017080292463400787,
+      "common_offset_changes_difference": false
+    }
+  ],
+  "historical_same_z": {
+    "z": 3.548925327627479,
+    "same_exposures": true,
+    "independent": false,
+    "local_minus_global_blue_uJy": 0.0008841981554668504,
+    "local_minus_global_red_uJy": -0.012834627841134844,
+    "local_minus_global_ratio": -0.6736122562945557
+  }
+}

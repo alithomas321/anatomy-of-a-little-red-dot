@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "kind": "synthetic_arithmetic_only",
+  "seed": 9182026,
+  "profile_recovery_max_absolute_error": 5.551115123125783e-17,
+  "analytic_variance_max_absolute_error": 1.734723475976807e-18,
+  "independent_pixel_monte_carlo_trials": 100000,
+  "monte_carlo_variance_over_analytic": 1.0008794535465004,
+  "zero_weight_coverage_rejected": true,
+  "native_sum_recovery": true,
+  "flat_color_recovery": true,
+  "offset_derivative_and_cancellation": true,
+  "v1_reference_band_fluxes_reproduced": true,
+  "historical_cliff_exposure_sets_match": true,
+  "every_variant_has_full_band_coverage": true,
+  "raw_input_manifest_hashes_verified": true
+}

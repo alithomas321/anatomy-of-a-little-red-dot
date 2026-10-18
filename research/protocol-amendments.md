@@ -1,0 +1,26 @@
+# Implementation decisions and amendments — 2026-09-10
+
+The frozen protocol and sample remain unchanged. This record distinguishes new information from prespecified decisions.
+
+## After initial acquisition and band measurements, before shape fits
+
+- The first v3 Cliff file (`rubies-uds31-v3`) proved to use **global** sky subtraction (`DIFFS=False`, a named SKY_FILE), unlike the anchor paper's local subtraction. The public RUBIES v3 metadata table then identified `rubies-uds31-nod-v3`. It has been retrieved for the intended paper comparison. Retain both; never describe the global file as the paper's input. Public S3 directory listing returned 403, so use the published HTML/JSON product index instead. No contact is needed.
+- The v4 products already include the path-loss correction. `path_corr` is diagnostic and must not be multiplied into flux again. This is confirmed in the extraction source at header commit 80b81b4. No extra `escale`, `full_err`, polynomial correction or covariance is stored in the three primary SPEC1D tables. Their `err` is propagated extraction uncertainty. The archive's fitting helper adds optional scaling/floors, so our baseline errors cannot be assumed identical to paper errors.
+- Nominal resolution near 3646 Å is only R≈34–52 (FWHM≈70–108 Å). Thus the 100 Å bands each contain about one resolution element, although several extracted pixels contribute. The predeclared one-FWHM emission mask removes all of the original red band for every object. A fully masked original-band ratio is therefore not supported; the unmasked result is explicitly a total-light band contrast.
+- The initially proposed “line-avoiding” alternative is a **line-center-avoiding** choice, not a guarantee of line-free light. Instrumental wings and unlisted lines can remain. Its bands also have greater separation and hence stronger sensitivity to continuum slope.
+- Shape implementation: profile the free transition on a fixed 10 Å grid from 3400 through 4100 Å, with the jump included only in the discontinuous model. Use a 2 Å latent grid over 2500–5100 Å and five-point Gauss–Legendre pixel integration, smoothing f_lambda and converting back to f_nu. Both resolutions use the same baseline mask per masking scenario, so resolution comparisons use identical data pixels. Parameter limits: log normalization [-12,8] in units of the positive median fitted flux; slopes [-20,30]; log jump [-5,5]; smooth log-quadratic curvature [-100,100]. These are descriptive shapes, not physical stellar/AGN models. Report boundary solutions.
+- For the grid-search broken models, try a neutral start and the neighboring grid optimum at each transition. The jump model also starts from the continuous solution and opposite-sign jump guesses at the first grid point. Refine the best minima to assess optimizer consistency. A Δχ²≤3.84 profile region is a **nominal likelihood-support range**, not calibrated confidence for an unknown discontinuity with missing covariance. AICc counts the searched transition as one fitted parameter. Strong residuals or masking sensitivity invalidate a precise edge interpretation even if one simple shape ranks first.
+
+The initial flux measurements were already visible when these numerical shape implementation details were fixed. No outcome-driven shape-family expansion is permitted. This distinction is recorded rather than presenting every choice as made blind to the spectra.
+
+## After the primary measurements and shape fits
+
+Ancillary `.spec.zfit.fits` error products were added as a post-acquisition diagnostic for all three targets after initially checking the uncertainty semantics for The Cliff. Their flux and raw errors match the primary spectra in the analysis region. The numeric `full_err` construction was verified against the pinned source and FITS SYS_ERR value despite incomplete/misleading unit metadata on helper columns. They do not replace the frozen raw-error baseline and are not represented as the authors’ exact science-fit errors. The case study and ratio figure explicitly include these larger intervals, particularly because RUBIES-BLAGN-1’s errors nearly double. This change improves transparency about known error estimates rather than tuning a preferred contrast.
+
+The first annotated-spectrum rendering had overlapping headings/captions; spacing was corrected after visual inspection. Logarithmic minor tick labels were disabled where they overlapped. No data values were altered for appearance.
+
+## Final source and presentation checks
+
+Cross-matching the RUBIES-BLAGN-1 nickname to Wang et al. (2024), Table 2, found a 0.0052 arcsec position match and an alternate published redshift of 3.1034±0.0002, compared with the frozen catalog value 3.113558. The ~742 km/s difference exceeds the prespecified stress offset. Added a named post hoc band calculation at the paper value with both raw and archive-rescaled errors; the ratio changes from 3.045 to 3.013. The original catalog redshift and all primary results remain unchanged. No shape tuning or sample replacement was made, and the source of the redshift discrepancy is unresolved. The paper HTML is preserved with retrieval provenance.
+
+Final visual inspection covered all figure families; individual-spectrum y-label positioning was made explicit to prevent a clipped label. The scientific data were not changed for display.

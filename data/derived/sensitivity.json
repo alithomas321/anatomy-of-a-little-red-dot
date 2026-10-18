@@ -1,0 +1,2990 @@
+[
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "flambda_mean",
+    "ratio_at_means": 7.158424974754841,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "flambda_median",
+    "ratio_at_means": 8.671110352454685,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "baseline",
+    "blue_uJy": 0.021958969178270296,
+    "red_uJy": 0.18995119051920767,
+    "blue_err_uJy": 0.00902164156093077,
+    "red_err_uJy": 0.010342279295920895,
+    "blue_sn": 2.4340325460685643,
+    "red_sn": 18.366472716911296,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.65027811538511,
+    "ratio_p16_p50_p84": [
+      6.051459564069773,
+      8.590529619871372,
+      14.374003045487006
+    ],
+    "probability_blue_nonpositive": 0.00746582621764914,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.100197067132498,
+          14.7135088270202
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.730704898229812,
+          44.47460407602913
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 12.240613393236565,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "linear_interpolation",
+    "blue_uJy": 0.022443120951522018,
+    "red_uJy": 0.19035318750718366,
+    "blue_err_uJy": 0.008551813084214762,
+    "red_err_uJy": 0.01000279603536045,
+    "blue_sn": 2.624369912030505,
+    "red_sn": 19.02999789601571,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.481582749491645,
+    "ratio_p16_p50_p84": [
+      6.085568429242228,
+      8.452427654988444,
+      13.555280602414301
+    ],
+    "probability_blue_nonpositive": 0.004340472350159258,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.110820664638296,
+          13.733651250344389
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.795299806435924,
+          33.56193218770391
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 12.758982312245152,
+    "supported": true,
+    "coverage": [
+      0.9999999999999837,
+      1.0000000000000042
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      4,
+      5
+    ],
+    "effective_weighted_pixels": [
+      2.9481979358289068,
+      3.0264564462879764
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "inverse_variance",
+    "blue_uJy": 0.023788529733757766,
+    "red_uJy": 0.19477322807829994,
+    "blue_err_uJy": 0.00884792360480702,
+    "red_err_uJy": 0.010307503545943376,
+    "blue_sn": 2.6886002633243367,
+    "red_sn": 18.89625622830418,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.187695089112701,
+    "ratio_p16_p50_p84": [
+      5.918876586897359,
+      8.165092194711594,
+      12.927386595368429
+    ],
+    "probability_blue_nonpositive": 0.003587614212024331,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.9372735491567195,
+          13.067193056042091
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.675261356878772,
+          30.272108941960802
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 12.587031143618894,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.696279226924091,
+      2.700511351950936
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "bands_minus_50A",
+    "blue_uJy": 0.014383574128453315,
+    "red_uJy": 0.16422062172424629,
+    "blue_err_uJy": 0.008903062798842629,
+    "red_err_uJy": 0.01039261955150433,
+    "blue_sn": 1.6155759487985568,
+    "red_sn": 15.801658177747434,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 11.41723331472865,
+    "ratio_p16_p50_p84": [
+      6.401807296809295,
+      10.551497832110474,
+      22.560438508016496
+    ],
+    "probability_blue_nonpositive": 0.053093013709509196,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          7.0152630047230895,
+          30.0013477121718
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "unbounded_disjoint",
+      "intervals": [
+        [
+          "-inf",
+          -53.48747134319815
+        ],
+        [
+          5.086292210497133,
+          "inf"
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 10.949237169385386,
+    "supported": true,
+    "coverage": [
+      0.9999999999999993,
+      1.0000000000000058
+    ],
+    "bands_A": [
+      [
+        3570,
+        3670
+      ],
+      [
+        3950,
+        4050
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.6937473014702116,
+      2.762629256784089
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "bands_plus_50A",
+    "blue_uJy": 0.04509011003603273,
+    "red_uJy": 0.21297963574879208,
+    "blue_err_uJy": 0.008157013643943374,
+    "red_err_uJy": 0.0098422023303734,
+    "blue_sn": 5.5277718052503655,
+    "red_sn": 21.639428717242385,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 4.7234223996924,
+    "ratio_p16_p50_p84": [
+      3.9766699059315793,
+      4.726556007253766,
+      5.792090571674973
+    ],
+    "probability_blue_nonpositive": 1.621617593971293e-08,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          3.972380674377096,
+          5.794086581905738
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          3.4331506126150795,
+          7.372104586401728
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 13.133783232178692,
+    "supported": true,
+    "coverage": [
+      1.0000000000000013,
+      1.0000000000000013
+    ],
+    "bands_A": [
+      [
+        3670,
+        3770
+      ],
+      [
+        4050,
+        4150
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.8786548620018566,
+      2.9079416111058762
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "line_avoiding_bands",
+    "blue_uJy": 0.02254950747860049,
+    "red_uJy": 0.2378857661096354,
+    "blue_err_uJy": 0.008057764104997896,
+    "red_err_uJy": 0.010381070320497466,
+    "blue_sn": 2.7984819591099677,
+    "red_sn": 22.91534097788828,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 10.549488335183787,
+    "ratio_p16_p50_p84": [
+      7.7309931194471,
+      10.534665068110954,
+      16.318288938039295
+    ],
+    "probability_blue_nonpositive": 0.002567171878231331,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          7.7441778727192006,
+          16.443281961099824
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.149250903312144,
+          35.26300587792543
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 16.386202143092607,
+    "supported": true,
+    "coverage": [
+      1.0000000000000004,
+      0.9999999999999969
+    ],
+    "bands_A": [
+      [
+        3500,
+        3600
+      ],
+      [
+        4150,
+        4250
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.8587723387325608,
+      2.9056003934492196
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "redshift_minus_300kms",
+    "blue_uJy": 0.02108154610390558,
+    "red_uJy": 0.1876601633584094,
+    "blue_err_uJy": 0.009152616409651164,
+    "red_err_uJy": 0.010633155803487787,
+    "blue_sn": 2.303335479205237,
+    "red_sn": 17.648585878601995,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.901631902777916,
+    "ratio_p16_p50_p84": [
+      6.09836226988075,
+      8.80639583960091,
+      15.218110494573946
+    ],
+    "probability_blue_nonpositive": 0.010629987448291524,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.174090638130708,
+          15.76431802239575
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.744856168121733,
+          59.7765677514541
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 11.87322680814827,
+    "supported": true,
+    "coverage": [
+      1.0000000000000042,
+      1.000000000000001
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.5443764022998514,
+    "pixels_contributing": [
+      4,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.646052416426276,
+      2.769514211253066
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "redshift_plus_300kms",
+    "blue_uJy": 0.023002668312344876,
+    "red_uJy": 0.19223992779740195,
+    "blue_err_uJy": 0.008769766814025219,
+    "red_err_uJy": 0.010155018274392871,
+    "blue_sn": 2.6229509632522285,
+    "red_sn": 18.930534894472675,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.357288171400196,
+    "ratio_p16_p50_p84": [
+      5.995391424333395,
+      8.328525756983641,
+      13.361062633411551
+    ],
+    "probability_blue_nonpositive": 0.0043585909041177155,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.020065511718079,
+          13.53718785491503
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.72332948342736,
+          33.123449131168556
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 12.613037187859321,
+    "supported": true,
+    "coverage": [
+      1.0000000000000004,
+      1.0000000000000002
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.5534742529551067,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.8006293541032163,
+      2.9211861541221205
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "tilt_minus_5pct",
+    "blue_uJy": 0.02190446964237342,
+    "red_uJy": 0.18034103304104243,
+    "blue_err_uJy": 0.009030642604243909,
+    "red_err_uJy": 0.0098332981234837,
+    "blue_sn": 2.4255715348628146,
+    "red_sn": 18.33983174072139,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.233070053071684,
+    "ratio_p16_p50_p84": [
+      5.752167195282442,
+      8.174240578269933,
+      13.705738040100368
+    ],
+    "probability_blue_nonpositive": 0.007642151606758918,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.800075776765263,
+          14.037926005431988
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.495487163064796,
+          42.94807988374339
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 11.867116428044726,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "tilt_plus_5pct",
+    "blue_uJy": 0.02201115829249274,
+    "red_uJy": 0.1995702350911705,
+    "blue_err_uJy": 0.009013300036566951,
+    "red_err_uJy": 0.010851174343468833,
+    "blue_sn": 2.4420754000414377,
+    "red_sn": 18.391579452530774,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 9.066775697998462,
+    "ratio_p16_p50_p84": [
+      6.350268391025518,
+      9.005640449508133,
+      15.039825426555234
+    ],
+    "probability_blue_nonpositive": 0.007301548158325107,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          6.400063640127246,
+          15.38669676232584
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.965835549558428,
+          45.99067338213951
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 12.58722259904613,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "noise_rho_0.3",
+    "blue_uJy": 0.021958969178270296,
+    "red_uJy": 0.18995119051920767,
+    "blue_err_uJy": 0.010732981882333324,
+    "red_err_uJy": 0.012456758589459301,
+    "blue_sn": 2.0459336854388197,
+    "red_sn": 15.248845769552053,
+    "cov_blue_red": 9.572319807577203e-09,
+    "ratio_at_means": 8.65027811538511,
+    "ratio_p16_p50_p84": [
+      5.615449610032512,
+      8.446501912722962,
+      15.681949324560492
+    ],
+    "probability_blue_nonpositive": 0.020381447794836693,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.772435954221258,
+          16.958513772410175
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.343440013390733,
+          205.93467565709358
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 10.217087631564818,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "noise_rho_0.6",
+    "blue_uJy": 0.021958969178270296,
+    "red_uJy": 0.18995119051920767,
+    "blue_err_uJy": 0.0124348539370206,
+    "red_err_uJy": 0.014620448111788123,
+    "blue_sn": 1.7659209580978545,
+    "red_sn": 12.992159273562518,
+    "cov_blue_red": 2.8333346442404955e-06,
+    "ratio_at_means": 8.65027811538511,
+    "ratio_p16_p50_p84": [
+      5.161737060560809,
+      8.205483546844945,
+      16.678486354352945
+    ],
+    "probability_blue_nonpositive": 0.038704555273057904,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.484261387585831,
+          19.9655029458615
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "unbounded_disjoint",
+      "intervals": [
+        [
+          "-inf",
+          -78.4492684158425
+        ],
+        [
+          4.0205773664894515,
+          "inf"
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 8.820750965823441,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "errors_times_2",
+    "blue_uJy": 0.021958969178270296,
+    "red_uJy": 0.18995119051920767,
+    "blue_err_uJy": 0.01804328312186154,
+    "red_err_uJy": 0.02068455859184179,
+    "blue_sn": 1.2170162730342822,
+    "red_sn": 9.183236358455648,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.65027811538511,
+    "ratio_p16_p50_p84": [
+      3.538425825772194,
+      7.002145856498448,
+      17.387021856517016
+    ],
+    "probability_blue_nonpositive": 0.11179901222197686,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.686183864722284,
+          48.57265028436222
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "unbounded_disjoint",
+      "intervals": [
+        [
+          "-inf",
+          -14.046742534777712
+        ],
+        [
+          3.190486637499837,
+          "inf"
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 6.120306696618282,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "archive_fit_full_error",
+    "blue_uJy": 0.021958969178270296,
+    "red_uJy": 0.18995119051920767,
+    "blue_err_uJy": 0.009757952054981513,
+    "red_err_uJy": 0.011606702105687391,
+    "blue_sn": 2.250366578411304,
+    "red_sn": 16.365647088170707,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 8.65027811538511,
+    "ratio_p16_p50_p84": [
+      5.866045942395551,
+      8.540613680241584,
+      14.971517750161578
+    ],
+    "probability_blue_nonpositive": 0.012212842381152555,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.952750908703346,
+          15.6046751101764
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.55231610643135,
+          67.1032479491021
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 11.078688892053409,
+    "supported": true,
+    "coverage": [
+      1.0000000000000027,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.693482953236697,
+      2.8701358046401073
+    ],
+    "full_err_over_raw_band_errors": [
+      1.0816160217714057,
+      1.1222576545834726
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "flambda_mean",
+    "ratio_at_means": 2.498313659409668,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "flambda_median",
+    "ratio_at_means": 2.475555347938295,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "baseline",
+    "blue_uJy": 0.13121348359074655,
+    "red_uJy": 0.3995932232194602,
+    "blue_err_uJy": 0.009268693976799582,
+    "red_err_uJy": 0.011254965316503466,
+    "blue_sn": 14.156631335459593,
+    "red_sn": 35.503727642192345,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.0453670787812266,
+    "ratio_p16_p50_p84": [
+      2.8291131075038733,
+      3.04672032053503,
+      3.2919785377389954
+    ],
+    "probability_blue_nonpositive": 8.497382707511977e-46,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.8279672939546856,
+          3.293310606248134
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6427117153200257,
+          3.567051047869071
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.40710673326504,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "linear_interpolation",
+    "blue_uJy": 0.13244821211766722,
+    "red_uJy": 0.39948903604662933,
+    "blue_err_uJy": 0.008499845193329926,
+    "red_err_uJy": 0.010358910012023222,
+    "blue_sn": 15.582426397789357,
+    "red_sn": 38.5647752111908,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.0161904767104186,
+    "ratio_p16_p50_p84": [
+      2.8201355057062,
+      3.017445078623351,
+      3.2370310417292223
+    ],
+    "probability_blue_nonpositive": 4.792320532940827e-55,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.8190936060650937,
+          3.238233920077621
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6493835407103212,
+          3.479968117561362
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 19.928731296051865,
+    "supported": true,
+    "coverage": [
+      0.9999999999999984,
+      1.000000000000008
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.685837264893734,
+      2.696798309564608
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "inverse_variance",
+    "blue_uJy": 0.13087786881972563,
+    "red_uJy": 0.398151240758033,
+    "blue_err_uJy": 0.009260077423715842,
+    "red_err_uJy": 0.011409573294200575,
+    "blue_sn": 14.1335609661898,
+    "red_sn": 34.89624287355349,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.0421586502639055,
+    "ratio_p16_p50_p84": [
+      2.825391144780421,
+      3.043555378015628,
+      3.2894434487967015
+    ],
+    "probability_blue_nonpositive": 1.1795355605989273e-45,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.8241508157315978,
+          3.2907782398499386
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6383551385650263,
+          3.5652614739694206
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.188706641260534,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.258062110003145,
+      2.207090255158951
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "bands_minus_50A",
+    "blue_uJy": 0.1220069235090493,
+    "red_uJy": 0.35442365532695363,
+    "blue_err_uJy": 0.008916726671957047,
+    "red_err_uJy": 0.011052496798876193,
+    "blue_sn": 13.682927378805834,
+    "red_sn": 32.067293189624905,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 2.904947072947593,
+    "ratio_p16_p50_p84": [
+      2.689850637096725,
+      2.906289756853379,
+      3.151220681709004
+    ],
+    "probability_blue_nonpositive": 6.420840528681849e-43,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6885786686840367,
+          3.1525141459772903
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.5046470667404717,
+          3.426952511566151
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 16.366332527691803,
+    "supported": true,
+    "coverage": [
+      1.0000000000000022,
+      1.0000000000000027
+    ],
+    "bands_A": [
+      [
+        3570,
+        3670
+      ],
+      [
+        3950,
+        4050
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      3,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.3427457296358636,
+      2.2722044635675682
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "bands_plus_50A",
+    "blue_uJy": 0.15527500742937445,
+    "red_uJy": 0.4477733628241223,
+    "blue_err_uJy": 0.00988981009984307,
+    "red_err_uJy": 0.012132170666520083,
+    "blue_sn": 15.700504444654435,
+    "red_sn": 36.90793470782577,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 2.8837439471885924,
+    "ratio_p16_p50_p84": [
+      2.696334425082836,
+      2.884888208161385,
+      3.094792974238772
+    ],
+    "probability_blue_nonpositive": 7.502209421872282e-56,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6951391143485606,
+          3.0958410435881607
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.5324670784506007,
+          3.326322090362383
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.687114204941217,
+    "supported": true,
+    "coverage": [
+      1.0000000000000042,
+      0.9999999999999931
+    ],
+    "bands_A": [
+      [
+        3670,
+        3770
+      ],
+      [
+        4050,
+        4150
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.253117025922621,
+      2.374917357682363
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "line_avoiding_bands",
+    "blue_uJy": 0.11998398230555299,
+    "red_uJy": 0.5036066360178334,
+    "blue_err_uJy": 0.008707533667177773,
+    "red_err_uJy": 0.01265682660299768,
+    "blue_sn": 13.779330277851384,
+    "red_sn": 39.789328858985684,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 4.197282223349958,
+    "ratio_p16_p50_p84": [
+      3.896914234294054,
+      4.198861626623889,
+      4.541853597025958
+    ],
+    "probability_blue_nonpositive": 1.6970309022128067e-43,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          3.8955343795011257,
+          4.543476337036827
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          3.639802294503408,
+          4.928108582439168
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 24.970840023755745,
+    "supported": true,
+    "coverage": [
+      1.0000000000000084,
+      0.9999999999999998
+    ],
+    "bands_A": [
+      [
+        3500,
+        3600
+      ],
+      [
+        4150,
+        4250
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.736939495530734,
+      2.632251038989327
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "redshift_minus_300kms",
+    "blue_uJy": 0.1301276696958874,
+    "red_uJy": 0.39415186826182347,
+    "blue_err_uJy": 0.009052907814163322,
+    "red_err_uJy": 0.011228414670488204,
+    "blue_sn": 14.374129546785175,
+    "red_sn": 35.103073748939664,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.028962780805721,
+    "ratio_p16_p50_p84": [
+      2.8162063334823833,
+      3.0302857803718175,
+      3.2711078384101095
+    ],
+    "probability_blue_nonpositive": 3.760485217438599e-47,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.81496047347126,
+          3.272427471125232
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6322028849490655,
+          3.5404871699171836
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.30535711413165,
+    "supported": true,
+    "coverage": [
+      0.9999999999999953,
+      0.9999999999999973
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.109444442,
+    "pixels_contributing": [
+      3,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.360567927223547,
+      2.2755523141242286
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "redshift_plus_300kms",
+    "blue_uJy": 0.13299355812005548,
+    "red_uJy": 0.40397922868297964,
+    "blue_err_uJy": 0.00927107849553265,
+    "red_err_uJy": 0.010989600740073166,
+    "blue_sn": 14.344993215637166,
+    "red_sn": 36.760136991136044,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.037584935642529,
+    "ratio_p16_p50_p84": [
+      2.8251399146919014,
+      3.0389481079053393,
+      3.279344911334274
+    ],
+    "probability_blue_nonpositive": 5.725573774185481e-47,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.824077654121339,
+          3.280759199149619
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6419465091249332,
+          3.5487914450352886
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.847365143259097,
+    "supported": true,
+    "coverage": [
+      0.9999999999999971,
+      1.0000000000000133
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.1176715579999996,
+    "pixels_contributing": [
+      4,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.259121203276559,
+      2.399069634288163
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "tilt_minus_5pct",
+    "blue_uJy": 0.13119548831490735,
+    "red_uJy": 0.3794597313672772,
+    "blue_err_uJy": 0.009266294765522001,
+    "red_err_uJy": 0.010695041125423332,
+    "blue_sn": 14.15835472912637,
+    "red_sn": 35.47996935376509,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 2.8923230230026156,
+    "ratio_p16_p50_p84": [
+      2.686933825718818,
+      2.8936080911295634,
+      3.1265203956685257
+    ],
+    "probability_blue_nonpositive": 8.291564898661197e-46,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6858483097242503,
+          3.127799414799138
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.509897461881911,
+          3.3877673843215703
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 17.544053628415938,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "tilt_plus_5pct",
+    "blue_uJy": 0.13123240125325594,
+    "red_uJy": 0.4197406313524509,
+    "blue_err_uJy": 0.009271157782356914,
+    "red_err_uJy": 0.011814981558364962,
+    "blue_sn": 14.154909703186394,
+    "red_sn": 35.52613512589667,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.1984527246622863,
+    "ratio_p16_p50_p84": [
+      2.971349478687203,
+      3.1998756385971134,
+      3.4574810352637595
+    ],
+    "probability_blue_nonpositive": 8.708065512328698e-46,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.9701236324803677,
+          3.458868786763044
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.775560095037566,
+          3.7463883403822935
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 19.210495474080282,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "noise_rho_0.3",
+    "blue_uJy": 0.13121348359074655,
+    "red_uJy": 0.3995932232194602,
+    "blue_err_uJy": 0.010764385199884463,
+    "red_err_uJy": 0.013122220724119445,
+    "blue_sn": 12.189593846210084,
+    "red_sn": 30.4516462282168,
+    "cov_blue_red": 2.156451049162395e-08,
+    "ratio_at_means": 3.0453670787812266,
+    "ratio_p16_p50_p84": [
+      2.7965884263638774,
+      3.0469289713558636,
+      3.3350866400051635
+    ],
+    "probability_blue_nonpositive": 1.765885885945277e-34,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.795211161350269,
+          3.3367894697838514
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.585744805155613,
+          3.6666247577777864
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 15.813836555824532,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "noise_rho_0.6",
+    "blue_uJy": 0.13121348359074655,
+    "red_uJy": 0.3995932232194602,
+    "blue_err_uJy": 0.012160942921227779,
+    "red_err_uJy": 0.014880370245859666,
+    "blue_sn": 10.789745864336245,
+    "red_sn": 26.85371510367113,
+    "cov_blue_red": 4.0892428712867596e-06,
+    "ratio_at_means": 3.0453670787812266,
+    "ratio_p16_p50_p84": [
+      2.7685417672787853,
+      3.0466712602278188,
+      3.374326494468878
+    ],
+    "probability_blue_nonpositive": 1.9242614611350793e-27,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.767292601948787,
+          3.375733228193301
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.5380848541147825,
+          3.758595748615657
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 14.122599942143882,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "errors_times_2",
+    "blue_uJy": 0.13121348359074655,
+    "red_uJy": 0.3995932232194602,
+    "blue_err_uJy": 0.018537387953599164,
+    "red_err_uJy": 0.022509930633006933,
+    "blue_sn": 7.078315667729797,
+    "red_sn": 17.751863821096173,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.0453670787812266,
+    "ratio_p16_p50_p84": [
+      2.6377109951961697,
+      3.0480795416350204,
+      3.5761704411567754
+    ],
+    "probability_blue_nonpositive": 7.295852370181175e-13,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.635422255117508,
+          3.5793529924421086
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.3202347604598996,
+          4.276265744071039
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 9.20355336663252,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "wang_paper_z_3.1034",
+    "blue_uJy": 0.12889582768094443,
+    "red_uJy": 0.3883288278870146,
+    "blue_err_uJy": 0.00868216114072697,
+    "red_err_uJy": 0.01084180261404857,
+    "blue_sn": 14.846053372162105,
+    "red_sn": 35.817736377512226,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.012733886532341,
+    "ratio_p16_p50_p84": [
+      2.807060785746941,
+      3.0140111738761393,
+      3.245866503491966
+    ],
+    "probability_blue_nonpositive": 3.689330256787569e-50,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.8058644319162105,
+          3.2470660676780576
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6285462674353512,
+          3.5038026272499874
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.678044556694054,
+    "supported": true,
+    "coverage": [
+      0.9999999999999916,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.1034,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.5537983336812653,
+      2.4350628684217748
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "archive_fit_full_error",
+    "blue_uJy": 0.13121348359074655,
+    "red_uJy": 0.3995932232194602,
+    "blue_err_uJy": 0.01727289777664152,
+    "red_err_uJy": 0.0221165507352096,
+    "blue_sn": 7.596495115497594,
+    "red_sn": 18.06761045171962,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.0453670787812266,
+    "ratio_p16_p50_p84": [
+      2.659190422253961,
+      3.0479863419776176,
+      3.537952555977583
+    ],
+    "probability_blue_nonpositive": 1.521293895190389e-14,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.6570942811131393,
+          3.5410474680002495
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.3539841295483783,
+          4.171117115556834
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 9.563698492579489,
+    "supported": true,
+    "coverage": [
+      0.9999999999999964,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.113558,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.2570090523102517,
+      2.2717974946987374
+    ],
+    "full_err_over_raw_band_errors": [
+      1.8635740720189078,
+      1.9650483242964323
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "variant": "wang_paper_z_archive_full_error",
+    "blue_uJy": 0.12889582768094443,
+    "red_uJy": 0.3883288278870146,
+    "blue_err_uJy": 0.016168499208477342,
+    "red_err_uJy": 0.02128667757849407,
+    "blue_sn": 7.972034139901047,
+    "red_sn": 18.242810624394632,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 3.012733886532341,
+    "ratio_p16_p50_p84": [
+      2.6444286061043623,
+      3.0149010303348427,
+      3.476677084151194
+    ],
+    "probability_blue_nonpositive": 7.804183542093409e-16,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.642410926528368,
+          3.47938214103534
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          2.3503985056104577,
+          4.062707211412974
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 9.70534617943299,
+    "supported": true,
+    "coverage": [
+      0.9999999999999916,
+      1.0000000000000069
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.1034,
+    "pixels_contributing": [
+      3,
+      3
+    ],
+    "effective_weighted_pixels": [
+      2.5537983336812653,
+      2.4350628684217748
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "flambda_mean",
+    "ratio_at_means": 0.982304011572796,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "flambda_median",
+    "ratio_at_means": 0.9351826188770505,
+    "supported": true
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "baseline",
+    "blue_uJy": 0.08919361790830183,
+    "red_uJy": 0.10627391037170261,
+    "blue_err_uJy": 0.008719950749110243,
+    "red_err_uJy": 0.008932204772143355,
+    "blue_sn": 10.228683678907576,
+    "red_sn": 11.897836321793294,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.191496800600248,
+    "ratio_p16_p50_p84": [
+      1.0488158918086972,
+      1.1908926145149823,
+      1.3566052865987386
+    ],
+    "probability_blue_nonpositive": 7.375534875349318e-25,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.0482121171467729,
+          1.3577775882709116
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9268025026884971,
+          1.5470202517197054
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.3682994805062818,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "linear_interpolation",
+    "blue_uJy": 0.08916864553229768,
+    "red_uJy": 0.10726572420338087,
+    "blue_err_uJy": 0.00842154914815809,
+    "red_err_uJy": 0.008733839306174305,
+    "blue_sn": 10.588152365268819,
+    "red_sn": 12.281623286513915,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.2029533875170086,
+    "ratio_p16_p50_p84": [
+      1.063301218113437,
+      1.20235484443069,
+      1.3636874050769385
+    ],
+    "probability_blue_nonpositive": 1.6910062010863797e-26,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.0627126911733,
+          1.364847662001055
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9434305542332159,
+          1.547840626599946
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.4915951799545282,
+    "supported": true,
+    "coverage": [
+      1.0000000000000013,
+      0.9999999999999998
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.8265226512101513,
+      4.085259586854423
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "inverse_variance",
+    "blue_uJy": 0.08778096553539094,
+    "red_uJy": 0.10202503133246965,
+    "blue_err_uJy": 0.00880489944831929,
+    "red_err_uJy": 0.008779169505857855,
+    "blue_sn": 9.969559113153403,
+    "red_sn": 11.621262269101193,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.1622682743371726,
+    "ratio_p16_p50_p84": [
+      1.0204035171169952,
+      1.1625275396294295,
+      1.3281954473557123
+    ],
+    "probability_blue_nonpositive": 1.035731523177407e-23,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.0192484933766917,
+          1.3289132888088593
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8984126842931075,
+          1.5195780839027504
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.1455897676855067,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.445225722702467,
+      3.682630361395065
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "bands_minus_50A",
+    "blue_uJy": 0.0793243958583132,
+    "red_uJy": 0.1279623416323337,
+    "blue_err_uJy": 0.008648305033338693,
+    "red_err_uJy": 0.009531167814545312,
+    "blue_sn": 9.172247689289687,
+    "red_sn": 13.425672920904098,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.6131524261577244,
+    "ratio_p16_p50_p84": [
+      1.417807412528164,
+      1.6121518977343074,
+      1.8465876792024791
+    ],
+    "probability_blue_nonpositive": 2.316285588945788e-20,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.417404728607757,
+          1.8477104195968073
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.2560805286406895,
+          2.1245887864343698
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 3.779178555922871,
+    "supported": true,
+    "coverage": [
+      0.9999999999999967,
+      1.0000000000000049
+    ],
+    "bands_A": [
+      [
+        3570,
+        3670
+      ],
+      [
+        3950,
+        4050
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      3.808703109289322,
+      3.8633963303705667
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "bands_plus_50A",
+    "blue_uJy": 0.1203163088703488,
+    "red_uJy": 0.11617509478207373,
+    "blue_err_uJy": 0.008942535826065665,
+    "red_err_uJy": 0.008624921301280291,
+    "blue_sn": 13.454383768824425,
+    "red_sn": 13.469699110741868,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 0.9655806089202954,
+    "ratio_p16_p50_p84": [
+      0.8697016871861466,
+      0.9658236471017391,
+      1.0721710743901887
+    ],
+    "probability_blue_nonpositive": 1.4507404053935486e-41,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8690855058041609,
+          1.0728031671518712
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.7844731439186768,
+          1.1885580301450887
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": -0.3333211025435735,
+    "supported": true,
+    "coverage": [
+      1.0000000000000067,
+      0.999999999999986
+    ],
+    "bands_A": [
+      [
+        3670,
+        3770
+      ],
+      [
+        4050,
+        4150
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      4,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.664068444576024,
+      4.021781979219062
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "line_avoiding_bands",
+    "blue_uJy": 0.09009537493458894,
+    "red_uJy": 0.11289738846016076,
+    "blue_err_uJy": 0.009375463737424155,
+    "red_err_uJy": 0.010017471380610316,
+    "blue_sn": 9.609697979520108,
+    "red_sn": 11.270048515305314,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.2530875035719262,
+    "ratio_p16_p50_p84": [
+      1.094610459779595,
+      1.2523217299002716,
+      1.4382955675081905
+    ],
+    "probability_blue_nonpositive": 3.6381047965330776e-22,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.0939587326930578,
+          1.4396522531084577
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.960109048187341,
+          1.6548438345504624
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.6619073123208032,
+    "supported": true,
+    "coverage": [
+      1.0000000000000047,
+      1.0000000000000022
+    ],
+    "bands_A": [
+      [
+        3500,
+        3600
+      ],
+      [
+        4150,
+        4250
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      3.5380557145655533,
+      3.9631895977946674
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "redshift_minus_300kms",
+    "blue_uJy": 0.08478969038863607,
+    "red_uJy": 0.10752695865878659,
+    "blue_err_uJy": 0.008673826585951762,
+    "red_err_uJy": 0.008902709253495091,
+    "blue_sn": 9.775349962145025,
+    "red_sn": 12.078004076857038,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.2681607653705724,
+    "ratio_p16_p50_p84": [
+      1.1137899072657262,
+      1.267366430874195,
+      1.4487067521935557
+    ],
+    "probability_blue_nonpositive": 7.182998886802416e-23,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.1132603096578562,
+          1.4498842908456726
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9831867751355188,
+          1.6593667528576863
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.8292926116698178,
+    "supported": true,
+    "coverage": [
+      1.000000000000006,
+      1.0000000000000062
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.711687595,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.5715418719108545,
+      3.98114571292824
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "redshift_plus_300kms",
+    "blue_uJy": 0.09296459234354293,
+    "red_uJy": 0.10502211450690443,
+    "blue_err_uJy": 0.008635366140106562,
+    "red_err_uJy": 0.009086134045501805,
+    "blue_sn": 10.765564636775869,
+    "red_sn": 11.558503757590595,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.1297001563649516,
+    "ratio_p16_p50_p84": [
+      0.9958821090580571,
+      1.12934489029033,
+      1.282808359021422
+    ],
+    "probability_blue_nonpositive": 2.502688993066287e-27,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9951719376953865,
+          1.2838928815220596
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8799755483443529,
+          1.4568806722799361
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 0.961904893282427,
+    "supported": true,
+    "coverage": [
+      1.000000000000001,
+      1.0000000000000098
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.723122405000001,
+    "pixels_contributing": [
+      4,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.6461416480670428,
+      3.825574308194442
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "tilt_minus_5pct",
+    "blue_uJy": 0.08913156372935635,
+    "red_uJy": 0.1009932521770229,
+    "blue_err_uJy": 0.008721972213102204,
+    "red_err_uJy": 0.008493149525469078,
+    "blue_sn": 10.219198313365677,
+    "red_sn": 11.891142605480624,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.133080672562685,
+    "ratio_p16_p50_p84": [
+      0.9978150687034091,
+      1.133354403988694,
+      1.2907035843196597
+    ],
+    "probability_blue_nonpositive": 8.134034473245675e-25,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9967254001527311,
+          1.2913456154296676
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.881201466909461,
+          1.471502451306396
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 0.974345651370357,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "tilt_plus_5pct",
+    "blue_uJy": 0.08925420596622671,
+    "red_uJy": 0.11155499308478589,
+    "blue_err_uJy": 0.00871822563147655,
+    "red_err_uJy": 0.00937110332483289,
+    "blue_sn": 10.237657264108947,
+    "red_sn": 11.904147165806135,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.2498569885546644,
+    "ratio_p16_p50_p84": [
+      1.1002884679990637,
+      1.2492154640587874,
+      1.4229176081178945
+    ],
+    "probability_blue_nonpositive": 6.722628921967334e-25,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.099653509474799,
+          1.4241402574115596
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9723666212986393,
+          1.622452066041289
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.7423285631779202,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "noise_rho_0.3",
+    "blue_uJy": 0.08919361790830183,
+    "red_uJy": 0.10627391037170261,
+    "blue_err_uJy": 0.01082059318727799,
+    "red_err_uJy": 0.01114473542750132,
+    "blue_sn": 8.242950859031344,
+    "red_sn": 9.535794821064632,
+    "cov_blue_red": 2.1696227040178287e-10,
+    "ratio_at_means": 1.191496800600248,
+    "ratio_p16_p50_p84": [
+      1.0168550395760318,
+      1.1907377256331633,
+      1.4009889811724863
+    ],
+    "probability_blue_nonpositive": 8.400729565055906e-17,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.0159854391120469,
+          1.4026037375168192
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8708007002201107,
+          1.654992822391591
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.0995771425932095,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "noise_rho_0.6",
+    "blue_uJy": 0.08919361790830183,
+    "red_uJy": 0.10627391037170261,
+    "blue_err_uJy": 0.013126036091235534,
+    "red_err_uJy": 0.013706896191772816,
+    "blue_sn": 6.795167809104063,
+    "red_sn": 7.753316935127193,
+    "cov_blue_red": 5.317353940795771e-07,
+    "ratio_at_means": 1.191496800600248,
+    "ratio_p16_p50_p84": [
+      0.981889894637041,
+      1.190408617542273,
+      1.4527548222845743
+    ],
+    "probability_blue_nonpositive": 5.409326298659054e-12,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9809609144791865,
+          1.454647134486263
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8107259685103249,
+          1.7879502819237956
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 0.9013273456861877,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "errors_times_2",
+    "blue_uJy": 0.08919361790830183,
+    "red_uJy": 0.10627391037170261,
+    "blue_err_uJy": 0.017439901498220486,
+    "red_err_uJy": 0.01786440954428671,
+    "blue_sn": 5.114341839453788,
+    "red_sn": 5.948918160896647,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.191496800600248,
+    "ratio_p16_p50_p84": [
+      0.9233474842777363,
+      1.1902724179945516,
+      1.5529635003886362
+    ],
+    "probability_blue_nonpositive": 1.5741837766724748e-07,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.9220218670033254,
+          1.5556985171881708
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.7131686383269453,
+          2.0800493855983384
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 0.6841497402531409,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "variant": "archive_fit_full_error",
+    "blue_uJy": 0.08919361790830183,
+    "red_uJy": 0.10627391037170261,
+    "blue_err_uJy": 0.009669474523790356,
+    "red_err_uJy": 0.010148927446603945,
+    "blue_sn": 9.224246642240352,
+    "red_sn": 10.471442517530678,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 1.191496800600248,
+    "ratio_p16_p50_p84": [
+      1.0327119147798132,
+      1.1909712881888967,
+      1.378055598793092
+    ],
+    "probability_blue_nonpositive": 1.4278057824564486e-20,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          1.031927763150576,
+          1.3794055500502191
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          0.8979961288672237,
+          1.5976707651124908
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 1.2184693681540946,
+    "supported": true,
+    "coverage": [
+      0.9999999999999949,
+      1.0000000000000038
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 4.717405,
+    "pixels_contributing": [
+      5,
+      5
+    ],
+    "effective_weighted_pixels": [
+      3.542470108077454,
+      3.9523551059910194
+    ],
+    "full_err_over_raw_band_errors": [
+      1.1088909561532787,
+      1.1362175079388184
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "v3_global_current_z",
+    "blue_uJy": 0.027511604227193724,
+    "red_uJy": 0.1958092474263396,
+    "blue_err_uJy": 0.0052390586431819985,
+    "red_err_uJy": 0.007179905181047641,
+    "blue_sn": 5.251249528003805,
+    "red_sn": 27.27184307993445,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 7.11733295555309,
+    "ratio_p16_p50_p84": [
+      5.958508021975234,
+      7.118282210883333,
+      8.806452542811536
+    ],
+    "probability_blue_nonpositive": 7.553542963290527e-08,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.953881969406181,
+          8.816412651443336
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.134026079997291,
+          11.404571232438165
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.935111154133935,
+    "supported": true,
+    "coverage": [
+      0.9999999999999916,
+      1.0000000000000053
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.691663006741187,
+      2.7182600172315508
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "v3_global_paper_z",
+    "blue_uJy": 0.0272822368564889,
+    "red_uJy": 0.19530049146310996,
+    "blue_err_uJy": 0.005232235527388467,
+    "red_err_uJy": 0.007130006698066346,
+    "blue_sn": 5.214260083224142,
+    "red_sn": 27.391347544747095,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 7.158521952962923,
+    "ratio_p16_p50_p84": [
+      5.986543370719776,
+      7.159219299618545,
+      8.87215944378582
+    ],
+    "probability_blue_nonpositive": 9.227619248631615e-08,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.981909713877162,
+          8.881826038262728
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.154467522501516,
+          11.518263120049333
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 18.998364156388718,
+    "supported": true,
+    "coverage": [
+      0.9999999999999926,
+      0.9999999999999947
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.698268430473683,
+      2.7386420387012396
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "v3_nod_current_z",
+    "blue_uJy": 0.028395802382660575,
+    "red_uJy": 0.18297461958520475,
+    "blue_err_uJy": 0.006343430676092137,
+    "red_err_uJy": 0.008210978919313482,
+    "blue_sn": 4.47641092535022,
+    "red_sn": 22.284141925492023,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 6.4437206992585345,
+    "ratio_p16_p50_p84": [
+      5.243427156964409,
+      6.444328728223984,
+      8.314479520622442
+    ],
+    "probability_blue_nonpositive": 3.7954158424201836e-06,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.238318566366706,
+          8.326046297691349
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.425052892023933,
+          11.518954483093122
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 14.897871675501436,
+    "supported": true,
+    "coverage": [
+      0.9999999999999916,
+      1.0000000000000053
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548925327627479,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.691663006741187,
+      2.7182600172315508
+    ]
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "variant": "v3_nod_paper_z",
+    "blue_uJy": 0.02815222366158844,
+    "red_uJy": 0.1825218308956439,
+    "blue_err_uJy": 0.006335618869261053,
+    "red_err_uJy": 0.008150490750557066,
+    "blue_sn": 4.443484408157263,
+    "red_sn": 22.393968226167114,
+    "cov_blue_red": 0.0,
+    "ratio_at_means": 6.483389486020637,
+    "ratio_p16_p50_p84": [
+      5.2688771930349425,
+      6.48386452154592,
+      8.38361907035975
+    ],
+    "probability_blue_nonpositive": 4.425678680315939e-06,
+    "fieller68": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          5.26389307151527,
+          8.394648382021971
+        ]
+      ]
+    },
+    "fieller95": {
+      "kind": "bounded",
+      "intervals": [
+        [
+          4.443100004273375,
+          11.655858451162567
+        ]
+      ]
+    },
+    "red_minus_blue_sigma": 14.953510608124082,
+    "supported": true,
+    "coverage": [
+      0.9999999999999926,
+      0.9999999999999947
+    ],
+    "bands_A": [
+      [
+        3620.0,
+        3720.0
+      ],
+      [
+        4000.0,
+        4100.0
+      ]
+    ],
+    "redshift_used": 3.548,
+    "pixels_contributing": [
+      4,
+      4
+    ],
+    "effective_weighted_pixels": [
+      2.698268430473683,
+      2.7386420387012396
+    ]
+  }
+]

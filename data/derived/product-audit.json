@@ -1,0 +1,479 @@
+[
+  {
+    "id": "RUBIES-UDS-154183",
+    "file": "rubies-uds31-v4_prism-clear_4233_154183.spec.fits",
+    "sha256": "abd903a4b7b93bb56a9fdba9e36cec1cfa9685ef740f819308a1ce52c597bee9",
+    "separation_arcsec": 0.0,
+    "units": {
+      "wave": "um",
+      "flux": "uJy",
+      "err": "uJy",
+      "sky": "uJy",
+      "path_corr": "None",
+      "npix": "None",
+      "flux_sum": "None",
+      "profile_sum": "None",
+      "var_sum": "None"
+    },
+    "header": {
+      "VERSION": "0.9.5.dev2+g80b81b4",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "CAL_VCS": "9b678d4",
+      "CRDS_VER": "12.0.9",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "EXPTIME": 2844.834,
+      "NCOMBINE": 3,
+      "EFFEXPTM": 948.278,
+      "EXPSTART": 60516.31174465579,
+      "EXPEND": 60516.32288894676,
+      "DIFFS": true,
+      "WITHPATH": true,
+      "SKY_FILE": "N/A",
+      "YTRACE": 15.0,
+      "NOD_OFFSET": 5.077363018637213,
+      "SRCRA": 34.41074855089,
+      "SRCDEC": -5.12966426274,
+      "PROGRAM": "04233",
+      "SOURCEID": 154183,
+      "SRCNAME": "4233_154183"
+    },
+    "exposure_files": [
+      "jw04233003001_03101_00002_nrs1_clear_prism_raw.107.4233_154183.fits",
+      "jw04233003001_03101_00003_nrs1_clear_prism_raw.107.4233_154183.fits",
+      "jw04233003001_03101_00004_nrs1_clear_prism_raw.107.4233_154183.fits"
+    ],
+    "wavelength_observed_um": [
+      0.549125977329285,
+      5.501833324931415
+    ],
+    "good_pixels_in_3000_4600": 39,
+    "invalid_pixels_in_3000_4600": 0,
+    "nominal_R_at_3646": 37.382987197421095,
+    "nominal_fwhm_A_at_3646": 97.5309966735757,
+    "approximate_resolution_elements_per_band": [
+      1.0267800858356866,
+      1.0609841885681397
+    ],
+    "fully_line_masked_original_band_coverage": [
+      0.0,
+      0.0
+    ],
+    "line_mask_intervals_A": [
+      [
+        3629.951267494835,
+        3824.048732505165,
+        "[O II]"
+      ],
+      [
+        3773.0347186278364,
+        3964.9652813721636,
+        "[Ne III]"
+      ],
+      [
+        3793.2041042602395,
+        3984.7958957397605,
+        "H8 / He I"
+      ],
+      [
+        3874.9478321066435,
+        4065.0521678933565,
+        "H\u03b5 / [Ne III]"
+      ],
+      [
+        4008.2872035529313,
+        4195.712796447068,
+        "H\u03b4"
+      ],
+      [
+        4249.998015717399,
+        4432.001984282601,
+        "H\u03b3"
+      ]
+    ],
+    "covariance_supplied": false,
+    "extra_error_scaling_supplied": false,
+    "polynomial_scaling_in_header": false
+  },
+  {
+    "id": "RUBIES-UDS-40579",
+    "file": "rubies-uds1-v4_prism-clear_4233_40579.spec.fits",
+    "sha256": "ac87aeb60b5657da2780fe52ed52491914cbca139658ad9b23e4d66aeca5e4dc",
+    "separation_arcsec": 0.0,
+    "units": {
+      "wave": "um",
+      "flux": "uJy",
+      "err": "uJy",
+      "sky": "uJy",
+      "path_corr": "None",
+      "npix": "None",
+      "flux_sum": "None",
+      "profile_sum": "None",
+      "var_sum": "None"
+    },
+    "header": {
+      "VERSION": "0.9.5.dev2+g80b81b4",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "CAL_VCS": "9b678d4",
+      "CRDS_VER": "12.0.9",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "EXPTIME": 2844.834,
+      "NCOMBINE": 3,
+      "EFFEXPTM": 948.278,
+      "EXPSTART": 60325.97524382245,
+      "EXPEND": 60325.98638811342,
+      "DIFFS": true,
+      "WITHPATH": true,
+      "SKY_FILE": "N/A",
+      "YTRACE": 15.0,
+      "NOD_OFFSET": 5.0800964277114,
+      "SRCRA": 34.2441997,
+      "SRCDEC": -5.245871399999999,
+      "PROGRAM": "04233",
+      "SOURCEID": 40579,
+      "SRCNAME": "4233_40579"
+    },
+    "exposure_files": [
+      "jw04233001001_03101_00002_nrs1_clear_prism_raw.149.4233_40579.fits",
+      "jw04233001001_03101_00003_nrs1_clear_prism_raw.149.4233_40579.fits",
+      "jw04233001001_03101_00004_nrs1_clear_prism_raw.149.4233_40579.fits"
+    ],
+    "wavelength_observed_um": [
+      0.549125977329285,
+      5.501833324931415
+    ],
+    "good_pixels_in_3000_4600": 35,
+    "invalid_pixels_in_3000_4600": 0,
+    "nominal_R_at_3646": 33.61975299764202,
+    "nominal_fwhm_A_at_3646": 108.44814952256547,
+    "approximate_resolution_elements_per_band": [
+      0.921669953574009,
+      0.9280986033681007
+    ],
+    "fully_line_masked_original_band_coverage": [
+      0.05198630145352872,
+      0.0
+    ],
+    "line_mask_intervals_A": [
+      [
+        3618.404396599171,
+        3835.595603400829,
+        "[O II]"
+      ],
+      [
+        3760.5176408744296,
+        3977.4823591255704,
+        "[Ne III]"
+      ],
+      [
+        3780.5659223769426,
+        3997.4340776230574,
+        "H8 / He I"
+      ],
+      [
+        3861.85111855001,
+        4078.14888144999,
+        "H\u03b5 / [Ne III]"
+      ],
+      [
+        3994.55673245054,
+        4209.44326754946,
+        "H\u03b4"
+      ],
+      [
+        4235.428349445148,
+        4446.571650554852,
+        "H\u03b3"
+      ]
+    ],
+    "covariance_supplied": false,
+    "extra_error_scaling_supplied": false,
+    "polynomial_scaling_in_header": false,
+    "literature_identity_crosscheck": {
+      "url": "https://arxiv.org/html/2403.02304v3#S4.T2",
+      "ra_deg": 34.244201,
+      "dec_deg": -5.245872,
+      "z": 3.1034,
+      "reported_z_error": 0.0002,
+      "separation_arcsec": 0.005136624226366997
+    }
+  },
+  {
+    "id": "RUBIES-UDS-182791",
+    "file": "rubies-uds21-v4_prism-clear_4233_182791.spec.fits",
+    "sha256": "ec26563ca74288cea377b8171093d3451926b8aed819ce40b8480ba9d9a7ca02",
+    "separation_arcsec": 0.0,
+    "units": {
+      "wave": "um",
+      "flux": "uJy",
+      "err": "uJy",
+      "sky": "uJy",
+      "path_corr": "None",
+      "npix": "None",
+      "flux_sum": "None",
+      "profile_sum": "None",
+      "var_sum": "None"
+    },
+    "header": {
+      "VERSION": "0.9.4.dev7+g92b1aa6",
+      "CAL_VER": "0.1.dev8704+g9b678d4",
+      "CAL_VCS": "9b678d4",
+      "CRDS_VER": "12.0.9",
+      "CRDS_CTX": "jwst_1298.pmap",
+      "EXPTIME": 2844.834,
+      "NCOMBINE": 3,
+      "EFFEXPTM": 948.278,
+      "EXPSTART": 60663.20539875301,
+      "EXPEND": 60663.21654304398,
+      "DIFFS": true,
+      "WITHPATH": true,
+      "SKY_FILE": "N/A",
+      "YTRACE": 15.0,
+      "NOD_OFFSET": 5.123184785959638,
+      "SRCRA": 34.21381285054,
+      "SRCDEC": -5.08704950317,
+      "PROGRAM": "04233",
+      "SOURCEID": 182791,
+      "SRCNAME": "4233_182791"
+    },
+    "exposure_files": [
+      "jw04233002001_03101_00002_nrs1_clear_prism_raw.203.4233_182791.fits",
+      "jw04233002001_03101_00003_nrs1_clear_prism_raw.203.4233_182791.fits",
+      "jw04233002001_03101_00004_nrs1_clear_prism_raw.203.4233_182791.fits"
+    ],
+    "wavelength_observed_um": [
+      0.549125977329285,
+      5.501833324931415
+    ],
+    "good_pixels_in_3000_4600": 54,
+    "invalid_pixels_in_3000_4600": 0,
+    "nominal_R_at_3646": 52.04726653714992,
+    "nominal_fwhm_A_at_3646": 70.05170958205046,
+    "approximate_resolution_elements_per_band": [
+      1.4337301946604917,
+      1.5389679322107794
+    ],
+    "fully_line_masked_original_band_coverage": [
+      0.31853840659019095,
+      0.0
+    ],
+    "line_mask_intervals_A": [
+      [
+        3657.962353923037,
+        3796.037646076963,
+        "[O II]"
+      ],
+      [
+        3801.752358474931,
+        3936.247641525069,
+        "[Ne III]"
+      ],
+      [
+        3822.0045538063696,
+        3955.9954461936304,
+        "H8 / He I"
+      ],
+      [
+        3904.021185247386,
+        4035.978814752614,
+        "H\u03b5 / [Ne III]"
+      ],
+      [
+        4037.6611614181334,
+        4166.338838581867,
+        "H\u03b4"
+      ],
+      [
+        4279.550744891325,
+        4402.449255108675,
+        "H\u03b3"
+      ]
+    ],
+    "covariance_supplied": false,
+    "extra_error_scaling_supplied": false,
+    "polynomial_scaling_in_header": false
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "file": "rubies-uds31-v3_prism-clear_4233_154183.spec.fits",
+    "sha256": "c32b1b0e458c1ef779d5a620facc1ca586a921e881bd82355550e7d887c1b0c4",
+    "separation_arcsec": 0.0,
+    "units": {
+      "wave": "um",
+      "flux": "uJy",
+      "err": "uJy",
+      "sky": "uJy",
+      "path_corr": "None",
+      "npix": "None",
+      "norm_corr": "None",
+      "flux_sum": "None",
+      "profile_sum": "None",
+      "var_sum": "None"
+    },
+    "header": {
+      "VERSION": "0.8.6.dev18+gc61ccae",
+      "CAL_VER": "1.14.0",
+      "CAL_VCS": "RELEASE",
+      "CRDS_VER": "11.17.20",
+      "CRDS_CTX": "jwst_1225.pmap",
+      "EXPTIME": 2844.834,
+      "NCOMBINE": 3,
+      "EFFEXPTM": 948.278,
+      "EXPSTART": 60516.31174465579,
+      "EXPEND": 60516.32288894676,
+      "DIFFS": false,
+      "WITHPATH": true,
+      "SKY_FILE": "jw04233003001_sky.csv",
+      "YTRACE": 15.0,
+      "NOD_OFFSET": 5.077272641343694,
+      "SRCRA": 34.41074855089,
+      "SRCDEC": -5.12966426274,
+      "PROGRAM": "04233",
+      "SOURCEID": 154183,
+      "SRCNAME": "4233_154183"
+    },
+    "exposure_files": [],
+    "wavelength_observed_um": [
+      0.6031652486825945,
+      5.2941360353656055
+    ],
+    "good_pixels_in_3000_4600": 39,
+    "invalid_pixels_in_3000_4600": 0,
+    "nominal_R_at_3646": 37.38218082946919,
+    "nominal_fwhm_A_at_3646": 97.53310050669324,
+    "approximate_resolution_elements_per_band": [
+      1.0267884360100403,
+      1.06099484033066
+    ],
+    "fully_line_masked_original_band_coverage": [
+      0.043211856333312565,
+      0.0
+    ],
+    "line_mask_intervals_A": [
+      [
+        3629.951242820693,
+        3824.048757179307,
+        "[O II]"
+      ],
+      [
+        3773.034166898161,
+        3964.965833101839,
+        "[Ne III]"
+      ],
+      [
+        3793.2059492672083,
+        3984.7940507327917,
+        "H8 / He I"
+      ],
+      [
+        3874.9492189605526,
+        4065.0507810394474,
+        "H\u03b5 / [Ne III]"
+      ],
+      [
+        4008.2860482284473,
+        4195.713951771552,
+        "H\u03b4"
+      ],
+      [
+        4249.997653663501,
+        4432.002346336499,
+        "H\u03b3"
+      ]
+    ],
+    "covariance_supplied": false,
+    "extra_error_scaling_supplied": false,
+    "polynomial_scaling_in_header": false
+  },
+  {
+    "id": "RUBIES-UDS-154183",
+    "file": "rubies-uds31-nod-v3_prism-clear_4233_154183.spec.fits",
+    "sha256": "07f0f1508c911b8a1b63eb6acae1368c9c8e3bbeb1c0d316f22adc62d7fa3ae7",
+    "separation_arcsec": 0.0,
+    "units": {
+      "wave": "um",
+      "flux": "uJy",
+      "err": "uJy",
+      "sky": "uJy",
+      "path_corr": "None",
+      "npix": "None",
+      "norm_corr": "None",
+      "flux_sum": "None",
+      "profile_sum": "None",
+      "var_sum": "None"
+    },
+    "header": {
+      "VERSION": "0.8.6.dev18+gc61ccae",
+      "CAL_VER": "1.14.0",
+      "CAL_VCS": "RELEASE",
+      "CRDS_VER": "11.17.20",
+      "CRDS_CTX": "jwst_1225.pmap",
+      "EXPTIME": 2844.834,
+      "NCOMBINE": 3,
+      "EFFEXPTM": 948.278,
+      "EXPSTART": 60516.31174465579,
+      "EXPEND": 60516.32288894676,
+      "DIFFS": true,
+      "WITHPATH": true,
+      "SKY_FILE": "jw04233003001_sky.csv",
+      "YTRACE": 15.0,
+      "NOD_OFFSET": 5.077272641343694,
+      "SRCRA": 34.41074855089,
+      "SRCDEC": -5.12966426274,
+      "PROGRAM": "04233",
+      "SOURCEID": 154183,
+      "SRCNAME": "4233_154183"
+    },
+    "exposure_files": [],
+    "wavelength_observed_um": [
+      0.6031652486825945,
+      5.2941360353656055
+    ],
+    "good_pixels_in_3000_4600": 39,
+    "invalid_pixels_in_3000_4600": 0,
+    "nominal_R_at_3646": 37.38218082946919,
+    "nominal_fwhm_A_at_3646": 97.53310050669324,
+    "approximate_resolution_elements_per_band": [
+      1.0267884360100403,
+      1.06099484033066
+    ],
+    "fully_line_masked_original_band_coverage": [
+      0.043211856333312565,
+      0.0
+    ],
+    "line_mask_intervals_A": [
+      [
+        3629.951242820693,
+        3824.048757179307,
+        "[O II]"
+      ],
+      [
+        3773.034166898161,
+        3964.965833101839,
+        "[Ne III]"
+      ],
+      [
+        3793.2059492672083,
+        3984.7940507327917,
+        "H8 / He I"
+      ],
+      [
+        3874.9492189605526,
+        4065.0507810394474,
+        "H\u03b5 / [Ne III]"
+      ],
+      [
+        4008.2860482284473,
+        4195.713951771552,
+        "H\u03b4"
+      ],
+      [
+        4249.997653663501,
+        4432.002346336499,
+        "H\u03b3"
+      ]
+    ],
+    "covariance_supplied": false,
+    "extra_error_scaling_supplied": false,
+    "polynomial_scaling_in_header": false
+  }
+]

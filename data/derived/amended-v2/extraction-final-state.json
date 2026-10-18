@@ -1,0 +1,74 @@
+{
+  "checked_utc": "2026-09-19T01:53:25.716111+00:00",
+  "script_run_exit_code": 0,
+  "summary_rows": 23,
+  "recorded_input_hashes_verified": 20,
+  "preserved_preexisting_evidence_files_checked": 100,
+  "method_links_resolve": true,
+  "png_and_svg_valid": true,
+  "png_visually_inspected": true,
+  "independent_agent_source_semantics_review": "No material source/calibration/nonindependence defect found; this is not human science approval.",
+  "human_review_pending": true,
+  "artifacts": [
+    {
+      "path": "analysis/amended_v2_extraction.py",
+      "bytes": 20585,
+      "sha256": "00b89e60b0cb45f78d6002632bcd4c4d43bef26142cb898d03864b048a526e27"
+    },
+    {
+      "path": "research/amended-v2/extraction-methods.md",
+      "bytes": 15654,
+      "sha256": "831a02214a04fc7279cc93ec7d646561c638156eaa9c2f2429c496e8c5b572c1"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-matched-differences.csv",
+      "bytes": 3979,
+      "sha256": "3042345fcf764ee15391fbc0795cb29ca9f40b5901a4dbfbf7e304e02c1f1832"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-offset-grid.csv",
+      "bytes": 100527,
+      "sha256": "2cc4d7d1d4bdc30d6edb888d79a544c9d6c8673e70a65127f8a4f6d8861b0b46"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-pixels.csv",
+      "bytes": 106710,
+      "sha256": "acf7c38a653f3218660ff7ab7c75b6da4571051b6128396ab6f7d806620a5e76"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-provenance.json",
+      "bytes": 9011,
+      "sha256": "e70a219347adb3c0b55451229affac3441fc9c61c1f68df2bf1ce66716859224"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-results.json",
+      "bytes": 38249,
+      "sha256": "b941fcc5e9c05363bf96923386b0cea6d153552500409f768bb819c0239c14a7"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-run.log",
+      "bytes": 7657,
+      "sha256": "e10f21a6aaf0f20ad08366dbe1c1412bd5608ee781b737a2af0d12a7b6ca7ad2"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-summary.csv",
+      "bytes": 8764,
+      "sha256": "8f902c50598c496c701447c2226a71c10b2830a04fab3c0af59d87d248c678de"
+    },
+    {
+      "path": "data/derived/amended-v2/extraction-validation.json",
+      "bytes": 660,
+      "sha256": "dfb8ec9a6b3c90fa2a33284baea57d09c297c69e18114a1cfd62cb311dc00261"
+    },
+    {
+      "path": "figures/amended-v2/extraction-sensitivity.png",
+      "bytes": 177435,
+      "sha256": "c67a5ccc05ef5c3a24f80c388f8e6c7442be31a6f37617029ab5641e7f6f579e"
+    },
+    {
+      "path": "figures/amended-v2/extraction-sensitivity.svg",
+      "bytes": 153101,
+      "sha256": "23503f841474f21225c3b8bb91921fa4cf029a3c3ed1130ac5824de89e76c351"
+    }
+  ]
+}

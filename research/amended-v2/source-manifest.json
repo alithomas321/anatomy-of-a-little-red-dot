@@ -1,0 +1,339 @@
+{
+  "description": "v2 source-audit additions only; historical sources remain in data/retrieval-manifest.json",
+  "resources": [
+    {
+      "path": "research/amended-v2/evidence/nirspec-dispersers-and-filters-2026-09-19.html",
+      "requested_url": "https://jwst-docs.stsci.edu/jwst-near-infrared-spectrograph/nirspec-instrumentation/nirspec-dispersers-and-filters",
+      "resolved_url": "https://jwst-docs.stsci.edu/jwst-near-infrared-spectrograph/nirspec-instrumentation/nirspec-dispersers-and-filters",
+      "retrieved_utc": "2026-09-19T01:47:24.300018+00:00",
+      "bytes": 551363,
+      "sha256": "1dc6e4bd81f165fd9cf61749b6a0d31d15f7cd151bccc780b8fb1da24f5aacfc",
+      "headers": {
+        "content-type": "text/html;charset=utf-8"
+      },
+      "reuse_note": "Public STScI instrument documentation retained for local evidence only; no permission to redistribute its figures is inferred."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-slit-combine-92b1aa6.py",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-19T01:47:24.490212+00:00",
+      "bytes": 167813,
+      "sha256": "608972e730425b5e5e74b92e712073eec3ec084aa3f31b76059b91dc86c724b2",
+      "headers": {
+        "content-length": "167813",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"a8e31dd10701177e173acb340d13258a45500e52533f3a7ad3bd894832cbafee\""
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-slit-combine-c61ccae.py",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-19T01:47:24.714983+00:00",
+      "bytes": 149692,
+      "sha256": "6a7e02c3db00ff16e05ba4d1ec1a8a8214a8b2b0e79e457ca3ad3d8aab91cf31",
+      "headers": {
+        "content-length": "149692",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"3f5d0f2952345a90f654b8b6cfc39d0a3631abc753aa6dae755e3d682e1e3296\""
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-commit-80b81b4.json",
+      "requested_url": "https://api.github.com/repos/gbrammer/msaexp/commits/80b81b4",
+      "resolved_url": "https://api.github.com/repos/gbrammer/msaexp/commits/80b81b4",
+      "retrieved_utc": "2026-09-19T01:47:25.046796+00:00",
+      "bytes": 5303,
+      "sha256": "b72564800d7f2e6d8cd98260fb77c00999ac1989ccd2c5807ed03b30adb280bd",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"b72564800d7f2e6d8cd98260fb77c00999ac1989ccd2c5807ed03b30adb280bd\"",
+        "last-modified": "Mon, 20 Jan 2025 17:13:05 GMT",
+        "content-length": "5303"
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-commit-92b1aa6.json",
+      "requested_url": "https://api.github.com/repos/gbrammer/msaexp/commits/92b1aa6",
+      "resolved_url": "https://api.github.com/repos/gbrammer/msaexp/commits/92b1aa6",
+      "retrieved_utc": "2026-09-19T01:47:25.307645+00:00",
+      "bytes": 4339,
+      "sha256": "0d9aca87174caee91fbc3643c89477740ddd8b3b2f120c6133b86bfb5d19609c",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"0d9aca87174caee91fbc3643c89477740ddd8b3b2f120c6133b86bfb5d19609c\"",
+        "last-modified": "Sun, 19 Jan 2025 00:50:48 GMT",
+        "content-length": "4339"
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-commit-c61ccae.json",
+      "requested_url": "https://api.github.com/repos/gbrammer/msaexp/commits/c61ccae",
+      "resolved_url": "https://api.github.com/repos/gbrammer/msaexp/commits/c61ccae",
+      "retrieved_utc": "2026-09-19T01:47:25.576923+00:00",
+      "bytes": 5213,
+      "sha256": "63597458504c4223147f57cd84082b9ff5a0128eaadaa97d95aee013539196c7",
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"63597458504c4223147f57cd84082b9ff5a0128eaadaa97d95aee013539196c7\"",
+        "last-modified": "Fri, 28 Jun 2024 12:49:19 GMT",
+        "content-length": "5213"
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-license-92b1aa6.txt",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/92b1aa6/LICENSE",
+      "retrieved_utc": "2026-09-19T01:48:02.483209+00:00",
+      "bytes": 1069,
+      "sha256": "0e7b3807fcdd4e3b323df8890ad13f0661ba0f9f0fa3b5959411f8918ae4aca1",
+      "headers": {
+        "content-length": "1069",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"207e5321e854fea490a5f9841b04f14ad7473046234245b13207f9ab6aad9616\""
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    },
+    {
+      "path": "research/amended-v2/evidence/msaexp-license-c61ccae.txt",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/c61ccae/LICENSE",
+      "retrieved_utc": "2026-09-19T01:48:02.632438+00:00",
+      "bytes": 1069,
+      "sha256": "0e7b3807fcdd4e3b323df8890ad13f0661ba0f9f0fa3b5959411f8918ae4aca1",
+      "headers": {
+        "content-length": "1069",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"207e5321e854fea490a5f9841b04f14ad7473046234245b13207f9ab6aad9616\""
+      },
+      "reuse_note": "MIT license; corresponding LICENSE snapshots retained. GitHub API metadata records provenance. No source executed."
+    }
+  ],
+  "preserved_historical_sources": [
+    {
+      "path": "research/evidence/zenodo-21977747.json",
+      "requested_url": "https://zenodo.org/api/records/21977747",
+      "resolved_url": "https://zenodo.org/api/records/21977747",
+      "retrieved_utc": "2026-09-10T18:58:52.539861+00:00",
+      "bytes": 5111,
+      "sha256": "152cf44aeed6ab78dd8e1ef4326a5c8f183d966c2183a90ed92f0a5cc80c2c04",
+      "md5": "9c91308f19d15d3c727b0df4b6859dab",
+      "headers": {
+        "content-type": "application/json",
+        "content-length": "5111",
+        "etag": "\"4\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.702956+00:00"
+    },
+    {
+      "path": "research/evidence/cliff-2503.16600v2.html",
+      "requested_url": "https://arxiv.org/html/2503.16600v2",
+      "resolved_url": "https://arxiv.org/html/2503.16600v2",
+      "retrieved_utc": "2026-09-10T18:58:53.069671+00:00",
+      "bytes": 428047,
+      "sha256": "403295c4e661e570c0fd323ac36a17bdb8c9a119bb7fc4b098dc8cc1ea265381",
+      "md5": "d3eda2386d9d66e860ca83d9a03f695c",
+      "headers": {
+        "content-length": "428047",
+        "content-type": "text/html; charset=utf-8",
+        "etag": "\"CK+dtv38uZYDEAE=\"",
+        "last-modified": "Mon, 24 Aug 2026 19:15:37 GMT"
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.703708+00:00"
+    },
+    {
+      "path": "research/evidence/lrd-2511.21820v2.html",
+      "requested_url": "https://arxiv.org/html/2511.21820v2",
+      "resolved_url": "https://arxiv.org/html/2511.21820v2",
+      "retrieved_utc": "2026-09-10T18:58:53.590838+00:00",
+      "bytes": 619255,
+      "sha256": "56b379eb90ff23e05162a11a1790c789f007a8ae85eae1f2d440cce9c18f1e22",
+      "md5": "4be1370decf0c2d7e1045d8605298925",
+      "headers": {
+        "content-length": "619255",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Mon, 24 Aug 2026 20:26:58 GMT",
+        "etag": "\"CMbg0vaMupYDEAE=\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.704589+00:00"
+    },
+    {
+      "path": "research/evidence/dja-v4-products.html",
+      "requested_url": "https://dawn-cph.github.io/dja/blog/2025/05/01/nirspec-merged-table-v4/",
+      "resolved_url": "https://dawn-cph.github.io/dja/blog/2025/05/01/nirspec-merged-table-v4/",
+      "retrieved_utc": "2026-09-10T19:00:43.340736+00:00",
+      "bytes": 409219,
+      "sha256": "261ed51657cd3b4696229b1be984feff61b65c22088f178d48d2a359cabdee4e",
+      "md5": "4f287a40a61fa6d32da6d8193746f133",
+      "headers": {
+        "content-length": "409219",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Thu, 10 Sep 2026 07:04:28 GMT",
+        "etag": "\"6aa2567c-63e83\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.705231+00:00"
+    },
+    {
+      "path": "data/raw/catalog/jwst_nirspec_prism_disp.fits",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/jwst_nirspec_prism_disp.fits",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/jwst_nirspec_prism_disp.fits",
+      "retrieved_utc": "2026-09-10T19:01:10.332051+00:00",
+      "bytes": 20160,
+      "sha256": "2e54a029286ac455a88158eca398b1fb4fa4a922981faff9e9241b17a637613c",
+      "md5": "0e9e25f792aca1084e580c066b9ba646",
+      "headers": {
+        "content-length": "20160",
+        "content-type": "application/octet-stream",
+        "etag": "\"1c79f24dc28bc9f6d057ed07e2f1da87d163720fd1d098f88d18c4e4dba183d8\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.705311+00:00"
+    },
+    {
+      "path": "research/evidence/msaexp-slit-combine-80b81b4.py",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/slit_combine.py",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/slit_combine.py",
+      "retrieved_utc": "2026-09-10T19:01:11.491799+00:00",
+      "bytes": 168450,
+      "sha256": "6a585d1bde11bed1ad0cbe02368dcf77ac872a37302f57aae8e1a75f77fd71cd",
+      "md5": "67701ff6c9e1ceed8fd820f29b15b5ce",
+      "headers": {
+        "content-length": "168450",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"47bd0bad5296f257396ce65c8aedc14b4cae670eea65d726e28cae454b65ecec\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.705829+00:00"
+    },
+    {
+      "path": "research/evidence/msaexp-data-readme-80b81b4.md",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/README.md",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/msaexp/data/README.md",
+      "retrieved_utc": "2026-09-10T19:01:53.741012+00:00",
+      "bytes": 139,
+      "sha256": "81ede39a4e7f9b129c5775ccb571c34aecd71585212b8cfa28a0e6aa4feb144f",
+      "md5": "fc4ae8ef7f9eb7f8049e44b89b5c3b36",
+      "headers": {
+        "content-length": "139",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"035ddcd361649d5a2070bd78fac28f1d611f9bc9f5fea9664c809ee4b63eb5d1\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.706031+00:00"
+    },
+    {
+      "path": "research/evidence/zenodo-dja-15472354.json",
+      "requested_url": "https://zenodo.org/api/records/15472354",
+      "resolved_url": "https://zenodo.org/api/records/15472354",
+      "retrieved_utc": "2026-09-10T19:12:53.822576+00:00",
+      "bytes": 8065,
+      "sha256": "cb3b5b5c159eef8c95f8fc9a41993b1eb526ec85104b9308ae9a88172f9d3054",
+      "md5": "883b2f2eab302b002b39e6619c8aa049",
+      "headers": {
+        "content-type": "application/json",
+        "content-length": "8065",
+        "etag": "\"6\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.706398+00:00"
+    },
+    {
+      "path": "research/evidence/msaexp-license-80b81b4.txt",
+      "requested_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/LICENSE",
+      "resolved_url": "https://raw.githubusercontent.com/gbrammer/msaexp/80b81b4/LICENSE",
+      "retrieved_utc": "2026-09-10T19:12:54.655006+00:00",
+      "bytes": 1069,
+      "sha256": "0e7b3807fcdd4e3b323df8890ad13f0661ba0f9f0fa3b5959411f8918ae4aca1",
+      "md5": "5a1f2ffa5490921a86e5e6f95acbb4b7",
+      "headers": {
+        "content-length": "1069",
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"207e5321e854fea490a5f9841b04f14ad7473046234245b13207f9ab6aad9616\""
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.706591+00:00"
+    },
+    {
+      "path": "research/evidence/wang-2024-rubies-blagn1-2403.02304v3.html",
+      "requested_url": "https://arxiv.org/html/2403.02304v3",
+      "resolved_url": "https://arxiv.org/html/2403.02304v3",
+      "retrieved_utc": "2026-09-10T19:21:38.471819+00:00",
+      "bytes": 410352,
+      "sha256": "1df8835e316cd9aa60c44be555dbbadbf7df03d1adf5b960d25f4bdfec22c0a3",
+      "md5": "07eee7beb69f66d319db62e802e6a947",
+      "headers": {
+        "content-length": "410352",
+        "content-type": "text/html; charset=utf-8",
+        "etag": "\"CJG+oZ71uZYDEAE=\"",
+        "last-modified": "Mon, 24 Aug 2026 18:40:59 GMT"
+      },
+      "failed_routes": [],
+      "review_use": "Preserved historical evidence, read-only; no reacquisition or replacement",
+      "verified_utc": "2026-09-19T01:49:28.707336+00:00"
+    }
+  ],
+  "historical_manifest": {
+    "path": "data/retrieval-manifest.json",
+    "sha256": "fe4c5469db79f4300915d89e008248a1a071384b522d283b4a3bdf247921f5fd"
+  },
+  "version_mappings": {
+    "80b81b4": {
+      "commit": "80b81b41b2c7eb8c2a3a9a08bf120e233f5bc3d0",
+      "commit_date": "2025-01-20T17:13:05Z",
+      "upstream_url": "https://github.com/gbrammer/msaexp/commit/80b81b41b2c7eb8c2a3a9a08bf120e233f5bc3d0"
+    },
+    "92b1aa6": {
+      "commit": "92b1aa6bcab577449724c936fc161b0b2033ea9e",
+      "commit_date": "2025-01-19T00:50:48Z",
+      "upstream_url": "https://github.com/gbrammer/msaexp/commit/92b1aa6bcab577449724c936fc161b0b2033ea9e"
+    },
+    "c61ccae": {
+      "commit": "c61ccae17f4e7a32f2e5b80722c37e83eb2533e6",
+      "commit_date": "2024-06-28T12:49:19Z",
+      "upstream_url": "https://github.com/gbrammer/msaexp/commit/c61ccae17f4e7a32f2e5b80722c37e83eb2533e6"
+    }
+  },
+  "live_primary_page_checks": {
+    "checked_date_utc": "2026-09-19",
+    "method": "web.run read-only; content checked against specified versioned sources, not represented as freshly downloaded bytes",
+    "urls": [
+      "https://arxiv.org/html/2503.16600v2",
+      "https://arxiv.org/html/2403.02304v3",
+      "https://arxiv.org/html/2511.21820v2",
+      "https://zenodo.org/records/21977747",
+      "https://zenodo.org/records/15472354",
+      "https://dawn-cph.github.io/dja/blog/2025/05/01/nirspec-merged-table-v4/"
+    ]
+  },
+  "technical_documentation_parent_record": {
+    "retrieved_date_utc": "2026-09-19",
+    "provider": "Context7",
+    "library_id": "/scipy/scipy",
+    "reported_by": "Parent task /root",
+    "topic": "scipy.optimize.nnls minimizes ||Ax-b||_2 with x>=0; returns coefficient vector and residual norm; maxiter controls convergence",
+    "official_source_url": "https://github.com/scipy/scipy/blob/main/scipy/optimize/_nnls.py",
+    "version_scope": "Unpinned current-main documentation; execution stays pinned to scipy 1.18.1",
+    "local_response_snapshot": null,
+    "source_auditor_url_checked_utc_date": "2026-09-19"
+  },
+  "header_policy": "Only content-type, content-length, etag and last-modified retained. Session/cookie/authentication and unrelated transport headers discarded."
+}
